@@ -22,3 +22,8 @@ int main()
       return 0;
 }
 ```
+
+### Data Types
+
+- int ⇒ 4 Bytes
+- char ⇒

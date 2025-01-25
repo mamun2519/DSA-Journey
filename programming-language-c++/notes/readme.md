@@ -29,3 +29,4 @@ int main()
 - char ⇒
 - float
 - bool
+- duble

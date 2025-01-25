@@ -30,3 +30,12 @@ int main()
 - float ⇒ 4 Bytes
 - bool ⇒ 1 Bytes
 - double ⇒ 8 Butes
+
+### Type Casting
+
+⇒ Converting data from one type to another
+
+⇒ 2 Type of type Casting
+
+- Converssion ⇒ implicit Process (That means compiler automatic convert)
+- casting ⇒ Programming convert This process

@@ -36,3 +36,12 @@ int main()
 ⇒ Converting data from one type to another
 
 ⇒ 2 Type of type Casting
+
+- Conversion ⇒ implicit Process (That means compiler automatic convert)
+- casting ⇒ Programming convert This process
+
+### Input In C++
+
+⇒ Get the data from the user
+
+⇒ cin >> age

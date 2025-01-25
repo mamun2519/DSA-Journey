@@ -36,6 +36,3 @@ int main()
 ⇒ Converting data from one type to another
 
 ⇒ 2 Type of type Casting
-
-- Converssion ⇒ implicit Process (That means compiler automatic convert)
-- casting ⇒ Programming convert This process

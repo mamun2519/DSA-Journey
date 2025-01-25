@@ -51,3 +51,5 @@ int main()
 - Arithmetic ⇒ +, -, \* , %, /
 - Relational ⇒ < , > , ≤ , ≥ ⇒ always retune or false
 - Logical ⇒ Or , AND , NOT
+- Unary Operators ⇒ Need one Number
+- Binary Operator ⇒ Need 2 Number

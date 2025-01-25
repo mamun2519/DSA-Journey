@@ -28,3 +28,4 @@ int main()
 - int ⇒ 4 Bytes
 - char ⇒
 - float
+- bool

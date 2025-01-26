@@ -68,3 +68,21 @@ int main()
 - for lop
 - while lop
 - nested lop
+
+**Squire Pattern**
+
+⇒ Easy With Numbers n = 4
+
+OutPut:
+
+1234
+
+1234
+
+1234
+
+1234
+
+```jsx
+ss;
+```

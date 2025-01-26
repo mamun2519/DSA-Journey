@@ -102,3 +102,53 @@ int main()
 }
 
 ```
+
+Question: retune the ABCD pattren
+
+```cpp
+
+int main()
+{
+      int n = 4;
+
+      for (int i = 0; i < n; i++)
+      {
+            char ch = 'A';
+            for (int j = 0; j < n; j++)
+            {
+                  cout << ch;
+                  ch = ch + 1;
+            }
+            cout << endl;
+      }
+      return 0;
+}
+//Output
+// ABCD
+// ABCD
+```
+
+Question: retune the ABCD pattren
+
+```cpp
+
+int main()
+{
+      int n = 4;
+
+      for (int i = 0; i < n; i++)
+      {
+            char ch = 'A';
+            for (int j = 0; j < n; j++)
+            {
+                  cout << ch;
+                  ch = ch + 1;
+            }
+            cout << endl;
+      }
+      return 0;
+}
+//Output
+// ABCD
+// ABCD
+```

@@ -53,6 +53,7 @@ int main()
 - Logical ⇒ Or , AND , NOT
 - Unary Operators ⇒ Need one Number
 - Binary Operator ⇒ Need 2 Number
+- Ternary Operator ⇒ need 3 Number
 
 ### Conditional Statements
 

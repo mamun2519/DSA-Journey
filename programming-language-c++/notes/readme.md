@@ -62,3 +62,9 @@ int main()
 ### Ternary Statement
 
 ⇒ condition? stt1 : strr2;
+
+### Pattens
+
+- for lop
+- while lop
+- nested lop

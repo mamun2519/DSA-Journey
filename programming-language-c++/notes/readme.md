@@ -57,3 +57,7 @@ int main()
 ### Conditional Statements
 
 ⇒ If Else
+
+### Ternary Statement
+
+⇒ condition? stt1 : strr2;

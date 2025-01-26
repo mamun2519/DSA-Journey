@@ -1,6 +1,20 @@
 #include <iostream>
 using namespace std;
 
+// **Squire Pattern **
+
+// ⇒ Easy With Numbers n = 4
+
+//     OutPut :
+
+//     1234
+
+//     1234
+
+//     1234
+
+//     1234
+
 int main()
 {
       int n = 4;

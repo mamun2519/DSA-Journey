@@ -43,15 +43,14 @@ using namespace std;
 
 int main()
 {
-      int n = 4;
-
+      int n = 3;
+      int number = 1;
       for (int i = 0; i < n; i++)
       {
-            char ch = 'A';
+
             for (int j = 0; j < n; j++)
             {
-                  cout << ch;
-                  ch = ch + 1;
+                  cout << num << " ";
             }
             cout << endl;
       }

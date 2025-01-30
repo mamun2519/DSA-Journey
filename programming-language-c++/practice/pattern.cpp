@@ -12,6 +12,7 @@ int main()
                   cout << ch;
                   ch = ch + 1;
             }
+            cout << endl;
       }
       return 0;
 }

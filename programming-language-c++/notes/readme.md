@@ -108,6 +108,8 @@ int main()
 
 **Problem 02**: retune the ABCD pattren
 
+**Problem solution**
+
 ```cpp
 
 int main()

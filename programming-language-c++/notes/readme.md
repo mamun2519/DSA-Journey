@@ -218,7 +218,7 @@ int main()
 ### Triangle Pattern
 
 **Problem 06** ⇒ easy with starts
-
+**Problem solution**
 output
 
 1

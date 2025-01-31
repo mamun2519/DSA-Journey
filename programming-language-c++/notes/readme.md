@@ -248,7 +248,6 @@ int main()
 ```
 
 **Problem 08** ⇒ easy to start
-**Problem solution**
 problem output
 
 1
@@ -260,6 +259,8 @@ problem output
 1234
 
 output
+
+**Problem solution**
 
 ```jsx
 #include <iostream>

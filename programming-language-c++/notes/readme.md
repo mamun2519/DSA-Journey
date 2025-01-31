@@ -71,6 +71,7 @@ int main()
 
 **Squire Pattern**
 
+**Problem 01**
 ⇒ Easy With Numbers n = 4
 
 OutPut:

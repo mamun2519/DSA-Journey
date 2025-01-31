@@ -283,11 +283,3 @@ int main()
 ## Function
 
 ---
-
-### Problem 1: calculate sum number 1 + n
-
-```jsx
-#include <iostream>
-using namespace std;
-
-```

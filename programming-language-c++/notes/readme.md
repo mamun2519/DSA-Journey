@@ -248,7 +248,7 @@ int main()
 ```
 
 **Problem 08** ⇒ easy to start
-
+**Problem solution**
 problem output
 
 1

@@ -301,9 +301,4 @@ int sumN(int n)
 }
 
 int main()
-{
-
-      cout << sumN(5) << endl;
-      return 0;
-}
 ```

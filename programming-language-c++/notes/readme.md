@@ -187,7 +187,7 @@ output
 
 ### Triangle Pattern
 
-Question ⇒ easy with starts
+**Problem 05** ⇒ easy with starts
 
 output
 

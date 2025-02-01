@@ -327,3 +327,15 @@ int main()
 **octal**
 
 ⇒ Base 8
+
+### Decimal To Binary
+
+formula: repeated division with 2
+
+**Convert the decimal number 45 to binary**
+
+1. Divide 45 by 2 to get 22 with a remainder of 1
+2. Write down the remainder, 1
+3. Repeat the process using the quotient, 22, as the new starting number
+4. Continue until the quotient is 0
+5. Read the remainders in reverse order to get the binary number, 101101

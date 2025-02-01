@@ -319,3 +319,11 @@ int main()
 ⇒ The computer can read this number. like 0,1
 
 ⇒ His base 2
+
+**Hexadecimal**
+
+⇒ Base 16
+
+**octal**
+
+⇒ Base 8

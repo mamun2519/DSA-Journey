@@ -339,3 +339,11 @@ formula: repeated division with 2
 3. Repeat the process using the quotient, 22, as the new starting number
 4. Continue until the quotient is 0
 5. Read the remainders in reverse order to get the binary number, 101101
+
+### Bitwise Operators
+
+- Bitwise &
+- Bitwise |
+- bitwise ^
+- bitwise << (left shift)
+- Bitwise ++ (right shift)

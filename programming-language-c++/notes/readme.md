@@ -308,4 +308,14 @@ int main()
 }
 ```
 
-s
+**Decimal Number system**
+
+⇒ We use it every day of our life. like 0-9
+
+⇒ his base 10
+
+**binary number system**
+
+⇒ The computer can read this number. like 0,1
+
+⇒ His base 2

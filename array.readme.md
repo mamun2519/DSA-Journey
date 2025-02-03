@@ -32,3 +32,14 @@ int marks[5] = {33, 55,50,21,90,50}
 ```cpp
 cout << marks[3] // define index
 ```
+
+**Loops used in the array**
+
+- if you need to calculate array size use ⇒ sizeof() / sizeof(int)
+
+```cpp
+int marks[5] = {33, 55,50,21,90,50}
+int size = 5
+for(int i=0; i <size; i++){
+cout << marks[i] << endl}
+```

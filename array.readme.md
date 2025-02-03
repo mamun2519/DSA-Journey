@@ -43,3 +43,7 @@ int size = 5
 for(int i=0; i <size; i++){
 cout << marks[i] << endl}
 ```
+
+**Solve This Problem Loops on Array**
+
+Problem 01: find the smallest / largest in array

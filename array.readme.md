@@ -24,3 +24,11 @@
 ```cpp
 int marks[5] = {33, 55,50,21,90,50}
 ```
+
+**Access Array Data using Index**
+
+- Index start 0
+
+```cpp
+cout << marks[3] // define index
+```

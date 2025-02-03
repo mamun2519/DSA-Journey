@@ -93,3 +93,7 @@ int main()
     return 0;
 }
 ```
+
+# Liner Search In Array
+
+**⇒ Linear search algorithm** is the simplest searching algorithm that is used to find an element in the given collection. It simply compares the element to find with each element in the collection one by one till the matching element is found or there are no elements left to compare.

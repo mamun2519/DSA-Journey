@@ -1,4 +1,4 @@
-## Array Data Structure (1st chapter)
+# Array Data Structure (1st chapter)
 
 ### What Is DSA?
 

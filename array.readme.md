@@ -12,3 +12,15 @@
 ### What Is Algorithm
 
 ⇒ An algorithm is **_a finite sequence of well-defined instructions_** that can be used to solve a computational problem.
+
+## Array Data Structure explanation
+
+- The same types of data stored in an array
+- array in contiguous memory
+- array in linear
+
+### array Syntax
+
+```cpp
+int marks[5] = {33, 55,50,21,90,50}
+```

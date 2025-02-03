@@ -103,3 +103,25 @@ int main()
 - need size
 - map in array
 - check target element qual in array each element
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int numbers[]  = {1, 2, 3, 4, 5, 8, 9, 11};
+   int size = 8
+    // Element to be searched
+    int target  = 5;
+
+    for( int i =0; i < size; i++){
+    if (numbers[i] == target){
+     retune i
+     }
+     else{
+     retune -1
+     }
+
+    return 0;
+}
+```

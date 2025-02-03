@@ -63,3 +63,33 @@ smallest = numbers[i]
 Note: use can use min func
 ex: min(numbers[i], smallest)
 ```
+
+### **Pass By Reference/ Address**
+
+- if you create an array and change an element in the array that means pass by reference
+- In C++, a collection of elements stored in contiguous memory locations and having the same data type is called an array. Passing arrays to functions is done to perform various operations on array elements without messing up with the main code.
+- That Means change original aray
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// function to update array elements
+void printarray(int a[10])
+{
+    for (int i = 0; i < 5; i++)
+        a[i] = a[i] + 5;
+}
+
+int main()
+{
+    // array declaration
+    int a[5] = { 1, 2, 3, 4, 5 };
+    printarray(a); // Passing array to function
+
+    // printing array elements
+    for (int i = 0; i < 5; i++)
+        cout << a[i] << " ";
+    return 0;
+}
+```

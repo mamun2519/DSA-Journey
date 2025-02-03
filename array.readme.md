@@ -97,3 +97,9 @@ int main()
 # Liner Search In Array
 
 **⇒ Linear search algorithm** is the simplest searching algorithm that is used to find an element in the given collection. It simply compares the element to find with each element in the collection one by one till the matching element is found or there are no elements left to compare.
+
+- Define target
+- need array
+- need size
+- map in array
+- check target element qual in array each element

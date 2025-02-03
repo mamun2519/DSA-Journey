@@ -143,5 +143,5 @@ int main() {
   swap(array[start], arry[end]);
   start++;
   end---;
-}
+}}
 ```

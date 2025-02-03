@@ -64,7 +64,7 @@ Note: use can use min func
 ex: min(numbers[i], smallest)
 ```
 
-### **Pass By Reference/ Address**
+# **Pass By Reference/ Address**
 
 - if you create an array and change an element in the array that means pass by reference
 - In C++, a collection of elements stored in contiguous memory locations and having the same data type is called an array. Passing arrays to functions is done to perform various operations on array elements without messing up with the main code.

@@ -18,6 +18,8 @@
 - The same types of data stored in an array
 - array in contiguous memory
 - array in linear
+- array every element memory consium 4 bytes
+- Its Non Primitive data Types
 
 ### array Syntax
 

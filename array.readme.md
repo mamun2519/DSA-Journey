@@ -125,3 +125,23 @@ int main() {
     return 0;
 }
 ```
+
+# Reverse An Array
+
+- use Tow Pointer Approach
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int numbers[]  = {1, 2, 3, 4, 5, 8, 9, 11};
+   int size = 8
+  int start = 0, end = size-1;
+
+  while (start < end){
+  swap(array[start], arry[end]);
+  start++;
+  end---;
+}
+```

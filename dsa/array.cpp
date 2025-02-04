@@ -33,6 +33,7 @@ int main()
 */
 
 //& Find the smaller Element in array
+/*
 int main()
 {
       int numbers[] = {2, 9, 6, 8, 2, 0, -5};
@@ -48,3 +49,4 @@ int main()
       cout << smallNumber << endl;
       return 0;
 }
+*/

@@ -35,8 +35,8 @@ int main()
 //& Find the smaller Element in array
 int main()
 {
-      int numbers[] = {2, 9, 6, 8, 2, 0};
-      int size = 6;
+      int numbers[] = {2, 9, 6, 8, 2, 0, -5};
+      int size = 7;
       int smallNumber;
       for (int i = 0; i < size; i++)
       {

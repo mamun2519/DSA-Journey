@@ -136,7 +136,63 @@ int main() {
 }
 ```
 
-## Liner Search In Array
+### Output:
+
+```
+Before swap: x = 10, y = 20
+After swap: x = 20, y = 10
+```
+
+### Key Points:
+
+- The function parameter uses `&` to indicate a reference.
+- Changes made to the parameters inside the function affect the original variables.
+- No need to use pointers or dereferencing.
+
+### 2. Pass by Address (Using Pointers)
+
+When you pass by address, you pass the memory address of the variable to the function. The function uses pointers to access and modify the original data.
+
+### Syntax:
+
+- Use the `` symbol in the function parameter to indicate a pointer.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// Function to swap two integers using pass by address
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+    int x = 10, y = 20;
+    cout << "Before swap: x = " << x << ", y = " << y << endl;
+
+    swap(&x, &y); // Pass addresses of x and y
+
+    cout << "After swap: x = " << x << ", y = " << y << endl;
+    return 0;
+}
+```
+
+### Output:
+
+Copy
+
+```
+Before swap: x = 10, y = 20
+After swap: x = 20, y = 10
+```
+
+### Key Points:
+
+- The function parameter uses `` to indicate a pointer.
+- You must pass the address of the variable using the `&` operator.
+- Inside the function, you must dereference the pointer (``) to access or modify the original data.
 
 # Liner Search In Array
 

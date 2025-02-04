@@ -18,6 +18,7 @@ using namespace std;
 int main()
 {
       int numbers[] = {2, 9, 6, 8, 2, 0};
-      int size =
-          return 0;
+      int size = 6;
+      int maxNumber = 0;
+      return 0;
 }

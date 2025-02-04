@@ -58,6 +58,15 @@ void swap(int &a, int &b)
       a = b;
       b = temp;
 }
+
+void swapInArray(int (&array)[5])
+{
+      for (int i = 0; i < 5; i++)
+      {
+            array[i] = array[i] * 2
+      }
+}
+
 int main()
 {
       int x = 50, y = 90;

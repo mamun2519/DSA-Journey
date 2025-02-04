@@ -117,13 +117,10 @@ int linerSearch(int array[5], int target)
       {
             if (array[i] == target)
             {
-                  return array[i];
-            }
-            else
-            {
-                  return -1;
+                  return i;
             }
       }
+      return -1;
 }
 
 int main()

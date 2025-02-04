@@ -112,15 +112,16 @@ int main()
 
 int linerSearch(int array[5], int target)
 {
+
       for (int i = 0; i < 5; i++)
       {
             if (array[i] == target)
             {
-                  return array[i]
+                  return array[i];
             }
             else
             {
-                  return -1
+                  return -1;
             }
       }
 }

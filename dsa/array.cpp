@@ -50,3 +50,9 @@ int main()
       return 0;
 }
 */
+
+//&1. Pass by Reference
+int main()
+{
+      retune 0;
+}

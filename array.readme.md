@@ -106,29 +106,37 @@ int main()
 - In C++, a collection of elements stored in contiguous memory locations and having the same data type is called an array. Passing arrays to functions is done to perform various operations on array elements without messing up with the main code.
 - That Means change original aray
 
+**1. Pass by Reference**
+
+When you pass by reference, you pass the variable itself (not a copy) to the function. The function operates on the original variable, so any changes made inside the function affect the original data.
+
+### Syntax:
+
+- Use the `&` symbol in the function parameter to indicate a reference.
+
 ```cpp
 #include <iostream>
 using namespace std;
 
-// function to update array elements
-void printarray(int a[10])
-{
-    for (int i = 0; i < 5; i++)
-        a[i] = a[i] + 5;
+// Function to swap two integers using pass by reference
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
 }
 
-int main()
-{
-    // array declaration
-    int a[5] = { 1, 2, 3, 4, 5 };
-    printarray(a); // Passing array to function
+int main() {
+    int x = 10, y = 20;
+    cout << "Before swap: x = " << x << ", y = " << y << endl;
 
-    // printing array elements
-    for (int i = 0; i < 5; i++)
-        cout << a[i] << " ";
+    swap(x, y); // Pass x and y by reference
+
+    cout << "After swap: x = " << x << ", y = " << y << endl;
     return 0;
 }
 ```
+
+## Liner Search In Array
 
 # Liner Search In Array
 

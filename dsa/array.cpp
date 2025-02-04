@@ -14,7 +14,25 @@ using namespace std;
 // }
 
 //& Find the largest Element in array
+/*
+int main()
+{
+      int numbers[] = {2, 9, 6, 8, 2, 0};
+      int size = 6;
+      int maxNumber = 0;
+      for (int i = 0; i < size; i++)
+      {
+            if (numbers[i] > maxNumber)
+            {
+                  maxNumber = numbers[i];
+            }
+      }
+      cout << maxNumber << endl;
+      return 0;
+}
+*/
 
+//& Find the smaller Element in array
 int main()
 {
       int numbers[] = {2, 9, 6, 8, 2, 0};

@@ -52,6 +52,12 @@ int main()
 */
 
 //&1. Pass by Reference
+void swap(int &a, int &b)
+{
+      int temp = a;
+      a = b;
+      b = temp;
+}
 int main()
 {
       retune 0;

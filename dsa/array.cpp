@@ -73,5 +73,9 @@ int main()
       cout << "Before swap: x = " << x << ", y = " << y << endl;
       swap(x, y);
       cout << "After swap: x = " << x << ", y = " << y << endl;
+
+      int arr[5] = {1, 2, 3, 4, 5};
+      cout << arr << endl;
+      swapInArray(arr);
       return 0;
 }

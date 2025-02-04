@@ -52,6 +52,7 @@ int main()
 */
 
 //&1. Pass by Reference
+/*
 void swap(int &a, int &b)
 {
       int temp = a;
@@ -82,5 +83,26 @@ int main()
       {
             cout << arr[i] << " ";
       }
+      return 0;
+}
+*/
+
+//* 2. Pass by Address (Using Pointers)
+
+void swap(int *a, int *b)
+{
+      int temp = *a;
+      *a = b;
+      *b = temp;
+}
+
+int main()
+{
+      int x = 10, y = 20;
+      cout << "Before swap: x = " << x << ", y = " << y << endl;
+
+      swap(&x, &y); // Pass addresses of x and y
+
+      cout << "After swap: x = " << x << ", y = " << y << endl;
       return 0;
 }

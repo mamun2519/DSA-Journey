@@ -27,6 +27,6 @@ int main()
                   maxNumber = numbers[i];
             }
       }
-
+      cout << maxNumber << endl;
       return 0;
 }

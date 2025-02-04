@@ -124,3 +124,11 @@ int linerSearch(int array[5], int target)
             }
       }
 }
+
+int main()
+{
+      int numbers[5] = {40, 50, 22, 15, 70};
+      int result = linerSearch(numbers, 22);
+      cout << result << "This is Linear search result";
+      return 0;
+}

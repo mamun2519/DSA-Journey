@@ -63,7 +63,7 @@ void swapInArray(int (&array)[5])
 {
       for (int i = 0; i < 5; i++)
       {
-            array[i] = array[i] * 2
+            array[i] = array[i] * 2;
       }
 }
 
@@ -75,7 +75,12 @@ int main()
       cout << "After swap: x = " << x << ", y = " << y << endl;
 
       int arr[5] = {1, 2, 3, 4, 5};
-      cout << arr << endl;
+      // cout << arr << endl;
       swapInArray(arr);
+      cout << "Modified array: ";
+      for (int i = 0; i < 5; i++)
+      {
+            cout << arr[i] << " ";
+      }
       return 0;
 }

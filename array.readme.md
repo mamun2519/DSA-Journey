@@ -56,7 +56,7 @@ cout << marks[i] << endl}
 
 **Solve This Problem Loops on Array**
 
-Problem 01: find the largest numbers in array
+**Problem 01:** find the largest numbers in array
 
 ```cpp
 
@@ -78,6 +78,26 @@ int main()
 
 Note: use can use min func
 ex: min(numbers[i], smallest)
+```
+
+**Problem 02:** find the smallest number in array
+
+```cpp
+int main()
+{
+      int numbers[] = {2, 9, 6, 8, 2, 0, -5};
+      int size = 7;
+      int smallNumber;
+      for (int i = 0; i < size; i++)
+      {
+            if (numbers[i] < smallNumber)
+            {
+                  smallNumber = numbers[i];
+            }
+      }
+      cout << smallNumber << endl;
+      return 0;
+}
 ```
 
 # **Pass By Reference/ Address**

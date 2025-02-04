@@ -40,11 +40,11 @@ int main()
       int smallNumber;
       for (int i = 0; i < size; i++)
       {
-            if (numbers[i] > maxNumber)
+            if (numbers[i] < smallNumber)
             {
-                  maxNumber = numbers[i];
+                  smallNumber = numbers[i];
             }
       }
-      cout << maxNumber << endl;
+      cout << smallNumber << endl;
       return 0;
 }

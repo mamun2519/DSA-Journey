@@ -20,5 +20,13 @@ int main()
       int numbers[] = {2, 9, 6, 8, 2, 0};
       int size = 6;
       int maxNumber = 0;
+      for (int i = 0; i < size; i++)
+      {
+            if (numbers[i] > maxNumber)
+            {
+                  maxNumber = numbers[i];
+            }
+      }
+
       return 0;
 }

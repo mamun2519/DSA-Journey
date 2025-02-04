@@ -17,6 +17,7 @@ using namespace std;
 
 int main()
 {
-
-      return 0;
+      int numbers[] = {2, 9, 6, 8, 2, 0};
+      int size =
+          return 0;
 }

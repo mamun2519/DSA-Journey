@@ -88,7 +88,7 @@ int main()
 */
 
 //* 2. Pass by Address (Using Pointers)
-
+/*
 void swap(int *a, int *b)
 {
       int temp = *a;
@@ -106,3 +106,5 @@ int main()
       cout << "After swap: x = " << x << ", y = " << y << endl;
       return 0;
 }
+
+*/

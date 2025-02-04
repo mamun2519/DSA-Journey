@@ -60,5 +60,9 @@ void swap(int &a, int &b)
 }
 int main()
 {
+      int a = 50, b = 90;
+      cout << "Before swap: x = " << x << ", y = " << y << endl;
+      swap(a, b);
+      cout << "After swap: x = " << x << ", y = " << y << endl;
       retune 0;
 }

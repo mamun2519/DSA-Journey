@@ -39,7 +39,3 @@ vector<int>vec(3,0)
 
 - size of
 - compactly
-
-Problem 01: find a unique element in vectors
-
-use ⇒ bitwise XOR

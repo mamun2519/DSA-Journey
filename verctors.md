@@ -29,6 +29,3 @@ vector<int>vec(3,0)
 - at
 
 ### Static Vs Dynamic Allocation of Memory
-
-- Static data allocates compile time. like array
-- dynamic allocation run time

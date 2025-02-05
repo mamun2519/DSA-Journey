@@ -7,6 +7,3 @@
 - vector use foreach lop
 - stl tool⇒ stand template lib
   - vector
-  - que
-  - stack
-  - set

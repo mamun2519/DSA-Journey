@@ -43,5 +43,3 @@ vector<int>vec(3,0)
 Problem 01: find a unique element in vectors
 
 use ⇒ bitwise XOR
-
-Homework

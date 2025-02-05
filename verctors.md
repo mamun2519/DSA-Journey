@@ -10,5 +10,3 @@
   - que
   - stack
   - set
-
-### Vector Syntax

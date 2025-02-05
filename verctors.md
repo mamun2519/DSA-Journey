@@ -7,3 +7,14 @@
 - vector use foreach lop
 - stl tool⇒ stand template lib
   - vector
+  - que
+  - stack
+  - set
+
+### Vector Syntax
+
+```cpp
+vector<int>vec;
+vector<int> vec= {1,2,3}
+
+```

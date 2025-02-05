@@ -27,5 +27,3 @@ vector<int>vec(3,0)
 - fornt
 - back
 - at
-
-### Static Vs Dynamic Allocation of Memory

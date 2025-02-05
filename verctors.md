@@ -36,6 +36,3 @@ vector<int>vec(3,0)
 - dynamic stack allocates heap
 
 **vector Has two property**
-
-- size of
-- compactly

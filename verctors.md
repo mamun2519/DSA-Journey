@@ -23,5 +23,3 @@ vector<int>vec(3,0)
 
 - size
 - push_back
-- pop_back
-- fornt

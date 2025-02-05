@@ -45,3 +45,6 @@ Problem 01: find a unique element in vectors
 use ⇒ bitwise XOR
 
 Homework
+
+- liner search implemented in vector
+- vector reverse

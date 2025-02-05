@@ -20,6 +20,3 @@ vector<int>vec(3,0)
 ```
 
 ### Vector Function
-
-- size
-- push_back

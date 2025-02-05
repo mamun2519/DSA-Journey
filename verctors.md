@@ -34,3 +34,14 @@ vector<int>vec(3,0)
 - dynamic allocation run time
 - static memory allocates stack
 - dynamic stack allocates heap
+
+**vector Has two property**
+
+- size of
+- compactly
+
+Problem 01: find a unique element in vectors
+
+use ⇒ bitwise XOR
+
+Homework

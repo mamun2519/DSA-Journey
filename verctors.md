@@ -25,5 +25,3 @@ vector<int>vec(3,0)
 - push_back
 - pop_back
 - fornt
-- back
-- at

@@ -16,7 +16,5 @@
 ```cpp
 vector<int>vec;
 vector<int> vec= {1,2,3}
-vector<int>vec(3,0)
-```
 
-### Vector Function
+```

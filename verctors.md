@@ -47,4 +47,3 @@ use ⇒ bitwise XOR
 Homework
 
 - liner search implemented in vector
-- vector reverse

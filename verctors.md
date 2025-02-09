@@ -60,6 +60,21 @@ v.push_back(20); // Adds 20 to the end
 v.emplace_back(30); // Adds 30 to the end
 ```
 
+### **Accessing Elements**
+
+- **`[]` Operator**: Access elements using indices (no bounds checking).
+- **`at()`**: Access elements with bounds checking (throws an exception if out of bounds).
+- **`front()`**: Access the first element.
+- **`back()`**: Access the last element.
+
+```cpp
+vector<int> v = {10, 20, 30};
+cout << v[0]; // Output: 10
+cout << v.at(1); // Output: 20
+cout << v.front(); // Output: 10
+cout << v.back(); // Output: 30
+`
+
 ### Static Vs Dynamic Allocation of Memory
 
 - Static data allocates compile time. like array
@@ -80,3 +95,4 @@ use ⇒ bitwise XOR
 
 - liner search implemented in vector
 - vector reverse
+```

@@ -127,6 +127,28 @@ v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
 // v = {10, 15, 20, 30}
 ```
 
+## Advantages of Vectors
+
+1. **Dynamic Resizing**: Automatically adjusts size as elements are added or removed.
+2. **Efficient Access**: Provides constant-time access to elements using indices.
+3. **Rich Functionality**: Comes with many built-in functions for common operations.
+4. **Memory Management**: Handles memory allocation and deallocation automatically.
+
+---
+
+## Disadvantages of Vectors
+
+1. **Overhead**: Slightly more overhead compared to traditional arrays due to dynamic resizing.
+2. **Insertion/Deletion in the Middle**: Can be inefficient (O(n)) due to element shifting.
+
+---
+
+## When to Use Vectors
+
+- When you need a dynamic array that can grow or shrink in size.
+- When you want automatic memory management.
+- When you need frequent access to elements using indices.
+
 ### Static Vs Dynamic Allocation of Memory
 
 - Static data allocates compile time. like array

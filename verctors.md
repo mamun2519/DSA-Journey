@@ -117,6 +117,16 @@ for (auto it = v.begin(); it != v.end(); it++) {
 }
 ```
 
+### 6. **Insertion**
+
+- **`insert()`**: Inserts elements at a specific position.
+
+```cpp
+vector<int> v = {10, 20, 30};
+v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
+// v = {10, 15, 20, 30}
+```
+
 ### Static Vs Dynamic Allocation of Memory
 
 - Static data allocates compile time. like array

@@ -46,6 +46,20 @@ vector<double> v3(5, 10.5); // Vector of size 5, all elements initialized to 10.
 - back
 - at
 
+# **Common Operations on Vectors**
+
+### **Adding Elements**
+
+- **`push_back()`**: Adds an element to the end of the vector.
+- **`emplace_back()`**: Similar to `push_back()`, but more efficient for certain types (e.g., objects).
+
+```cpp
+vector<int> v;
+v.push_back(10); // Adds 10 to the end
+v.push_back(20); // Adds 20 to the end
+v.emplace_back(30); // Adds 30 to the end
+```
+
 ### Static Vs Dynamic Allocation of Memory
 
 - Static data allocates compile time. like array

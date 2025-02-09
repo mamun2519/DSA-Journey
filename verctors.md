@@ -169,7 +169,3 @@ use ⇒ bitwise XOR
 
 - liner search implemented in vector
 - vector reverse
-
-```
-
-```

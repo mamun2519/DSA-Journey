@@ -11,6 +11,13 @@
   - stack
   - set
 
+## Key Features of Vectors
+
+1. **Dynamic Size**: Vectors can grow or shrink in size dynamically.
+2. **Contiguous Memory**: Elements are stored in contiguous memory locations, allowing efficient access.
+3. **Automatic Memory Management**: Vectors handle memory allocation and deallocation automatically.
+4. **Rich Functionality**: Vectors come with many built-in functions for common operations like insertion, deletion, and traversal.
+
 ### Vector Syntax
 
 ```cpp

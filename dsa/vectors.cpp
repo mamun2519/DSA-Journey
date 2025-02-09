@@ -16,7 +16,7 @@ int main()
       cout << "Access element is" << numbers.at(2) << "First element is" << numbers.front() << "Last element is" << numbers.back() << endl;
 
       // size and capacity
-      cout << "Size is" << numbers.size() << "capacity" << numbers.capacity() << "resize" << numbers.resize(2);
+      cout << "Size is" << numbers.size() << "capacity" << numbers.capacity() << "resize" << numbers.empty();
 
       return 0;
 }

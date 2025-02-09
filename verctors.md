@@ -103,6 +103,20 @@ v.resize(5); // Resizes the vector to 5 elements
 cout << v.empty(); // Output: 0 (false)
 ```
 
+### . **Iterators**
+
+- **`begin()`**: Returns an iterator to the first element.
+- **`end()`**: Returns an iterator to the element after the last element.
+- **`rbegin()`**: Returns a reverse iterator to the last element.
+- **`rend()`**: Returns a reverse iterator to the element before the first element.
+
+```cpp
+vector<int> v = {10, 20, 30};
+for (auto it = v.begin(); it != v.end(); it++) {
+    cout << *it << " "; // Output: 10 20 30
+}
+```
+
 ### Static Vs Dynamic Allocation of Memory
 
 - Static data allocates compile time. like array

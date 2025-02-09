@@ -18,12 +18,23 @@
 3. **Automatic Memory Management**: Vectors handle memory allocation and deallocation automatically.
 4. **Rich Functionality**: Vectors come with many built-in functions for common operations like insertion, deletion, and traversal.
 
+## Declaration and Initialization
+
+To use vectors, you need to include the `<vector>` header file.
+
+```cpp
+#include <vector>
+using namespace std;
+
+vector<data_type> vector_name;
+```
+
 ### Vector Syntax
 
 ```cpp
-vector<int>vec;
-vector<int> vec= {1,2,3}
-vector<int>vec(3,0)
+vector<int> v1; // Empty vector of integers
+vector<string> v2 = {"apple", "banana", "cherry"}; // Vector of strings
+vector<double> v3(5, 10.5); // Vector of size 5, all elements initialized to 10.5
 ```
 
 ### Vector Function

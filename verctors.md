@@ -88,6 +88,21 @@ v.erase(v.begin() + 1); // Removes 20
 v.clear(); // Clears the vector
 ````
 
+### **Size and Capacity**
+
+- **`size()`**: Returns the number of elements in the vector.
+- **`capacity()`**: Returns the current storage capacity of the vector.
+- **`resize()`**: Changes the size of the vector.
+- **`empty()`**: Checks if the vector is empty.
+
+```csharp
+vector<int> v = {10, 20, 30};
+cout << v.size(); // Output: 3
+cout << v.capacity(); // Output: 3 (or more, depending on implementation)
+v.resize(5); // Resizes the vector to 5 elements
+cout << v.empty(); // Output: 0 (false)
+```
+
 ### Static Vs Dynamic Allocation of Memory
 
 - Static data allocates compile time. like array

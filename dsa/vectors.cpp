@@ -9,7 +9,11 @@ int main()
       // Adding element
       numbers.push_back(20);
       numbers.emplace_back(30);
+
+      //* accessing
       cout
-          << numbers[6];
+          << "Adding Element Is" << numbers[6] << endl;
+      cout << "Access element is" << numbers.at(2) << "First element is" << numbers.front() << "Last element is" << numbers.back() << endl;
+
       return 0;
 }

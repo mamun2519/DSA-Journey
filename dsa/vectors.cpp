@@ -17,6 +17,10 @@ int main()
 
       // size and capacity
       cout << "Size is " << numbers.size() << "capacity " << numbers.capacity() << "resize " << numbers.empty();
-
+      //   Iterators
+      for (auto it = numbers.begin(); it != numbers.end(); it++)
+      {
+            cout << *it << " ";
+      }
       return 0;
 }

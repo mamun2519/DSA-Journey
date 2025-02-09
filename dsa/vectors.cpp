@@ -9,6 +9,6 @@ int main()
       numbers.push_back(20);
       numbers.emplace_back(30)
               cout
-          << numbers[5];
+          << numbers[6];
       return 0;
 }

@@ -29,14 +29,6 @@ using namespace std;
 vector<data_type> vector_name;
 ```
 
-### Vector Syntax
-
-```cpp
-vector<int> v1; // Empty vector of integers
-vector<string> v2 = {"apple", "banana", "cherry"}; // Vector of strings
-vector<double> v3(5, 10.5); // Vector of size 5, all elements initialized to 10.5
-```
-
 ### Vector Function
 
 - size

@@ -67,13 +67,26 @@ v.emplace_back(30); // Adds 30 to the end
 - **`front()`**: Access the first element.
 - **`back()`**: Access the last element.
 
-```cpp
+````cpp
 vector<int> v = {10, 20, 30};
 cout << v[0]; // Output: 10
 cout << v.at(1); // Output: 20
 cout << v.front(); // Output: 10
 cout << v.back(); // Output: 30
 `
+
+### . **Removing Elements**
+
+- **`pop_back()`**: Removes the last element.
+- **`erase()`**: Removes elements at a specific position or range.
+- **`clear()`**: Removes all elements.
+
+```cpp
+vector<int> v = {10, 20, 30};
+v.pop_back(); // Removes 30
+v.erase(v.begin() + 1); // Removes 20
+v.clear(); // Clears the vector
+````
 
 ### Static Vs Dynamic Allocation of Memory
 
@@ -95,4 +108,7 @@ use ⇒ bitwise XOR
 
 - liner search implemented in vector
 - vector reverse
+
+```
+
 ```

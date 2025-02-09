@@ -22,5 +22,9 @@ int main()
       {
             cout << *it << " ";
       }
+
+      //*  inserting
+      numbers.insert(numbers.begin() + 1, 50);
+      cout << numbers[3];
       return 0;
 }

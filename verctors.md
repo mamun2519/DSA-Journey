@@ -168,4 +168,5 @@ use ⇒ bitwise XOR
 **Homework**
 
 - liner search implemented in vector
-- vector reverse
+
+# Array and vectors Problem-solving

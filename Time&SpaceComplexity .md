@@ -50,5 +50,4 @@ swap(arr[j], arr[j+1)
   - Binary Search
 - O(nlogn)
   - soting
-  - merge sort
-  - quick sort
+  -

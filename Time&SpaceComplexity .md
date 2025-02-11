@@ -53,7 +53,7 @@ swap(arr[j], arr[j+1)
   - merge sort
   - quick sort
 - O(2^n)
-  - recertion
+  - recursion
 
 ### Problem Solve
 

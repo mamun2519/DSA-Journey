@@ -36,3 +36,12 @@
   dp[i] = dp[i-1] + dp[i-2]
   }
   ```
+- Bubble sort
+
+```cpp
+for (int i =0;i <n-1; i++){
+for (int j=0;j<n-i-1; j++){
+if(arr[j] > arr[j+1}){
+swap(arr[j], arr[j+1)
+}}}
+```

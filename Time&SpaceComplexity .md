@@ -45,3 +45,10 @@ if(arr[j] > arr[j+1}){
 swap(arr[j], arr[j+1)
 }}}
 ```
+
+- O(Logn)
+  - Binary Search
+- O(nlogn)
+  - soting
+  - merge sort
+  - quick sort

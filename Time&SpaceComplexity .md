@@ -54,3 +54,13 @@ swap(arr[j], arr[j+1)
   - quick sort
 - O(2^n)
   - recertion
+
+### Problem Solve
+
+Problem 01: Prime Number - Time complexity
+
+Problem 02: Selection Sort - Time Complexity
+
+Problem 03: Recursive Fibonacci - Time & Space Complexity
+
+Problem 04: Merge Sort - Time & Space Complexity

@@ -13,14 +13,3 @@
 ### CommonTime Complexities
 
 - O(1) ⇒ Its call constant
-
-  - The sum of numbers from 1 to N
-
-  ```cpp
-  int n;
-  cin >> n;
-  int ans = n * (n+1)/2;
-
-  ```
-
-- O(n) ⇒ Its call liner

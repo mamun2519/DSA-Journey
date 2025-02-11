@@ -52,3 +52,5 @@ swap(arr[j], arr[j+1)
   - soting
   - merge sort
   - quick sort
+- O(2^n)
+  - recertion

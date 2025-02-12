@@ -153,6 +153,8 @@ int binarySearch(int arr[], int left, int right, int target) {
 }
 ```
 
+# Examples of Time and Space Complexity
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

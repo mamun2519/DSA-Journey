@@ -10,6 +10,17 @@ When analyzing algorithms, time complexity and space complexity are two key 
 
 ## Common Time Complexities
 
+### **1. O(1) - Constant Time**:
+
+- The algorithm takes the same amount of time regardless of the input size.
+- Example: Accessing an element in an array or vector.
+
+```cpp
+int accessElement(int arr[], int index) {
+    return arr[index]; // O(1)
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

@@ -92,6 +92,10 @@ The algorithm's runtime doubles with each additional input.
 Example: Recursive Fibonacci without memoization.
 ```
 
+## **2. Space Complexity**
+
+Space complexity measures the amount of memory an algorithm uses as a function of the input size (`n`). It includes both **auxiliary space** (extra space used by the algorithm) and the space used by the input.
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

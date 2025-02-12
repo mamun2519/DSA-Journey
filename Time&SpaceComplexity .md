@@ -8,6 +8,8 @@ When analyzing algorithms, time complexity and space complexity are two key 
 
 ⇒ Time complexity measures the amount of time an algorithm takes to complete as a function of the input size (`n`). It is usually expressed using **Big O notation** (e.g., O(n), O(log n), O(n²)).
 
+## Common Time Complexities
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

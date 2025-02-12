@@ -113,6 +113,18 @@ int sum(int arr[], int size) {
 }
 ```
 
+### **2. O(n) - Linear Space**:
+
+- The algorithm's memory usage grows linearly with the input size.
+- Example: Storing an array or a dynamic data structure like a vector.
+
+```cpp
+vector<int> createVector(int n) {
+    vector<int> v(n);
+    return v; // O(n) space
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

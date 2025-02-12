@@ -81,6 +81,17 @@ void bubbleSort(int arr[], int size) {
 }
 ```
 
+### **6. O(2ⁿ) - Exponential Time**:
+
+- The algorithm's runtime doubles with each additional input.
+- Example: Recursive Fibonacci without memoization.
+
+```cpp
+The algorithm's runtime doubles with each additional input.
+
+Example: Recursive Fibonacci without memoization.
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

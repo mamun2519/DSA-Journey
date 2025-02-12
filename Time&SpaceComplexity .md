@@ -125,6 +125,21 @@ vector<int> createVector(int n) {
 }
 ```
 
+### **3. O(n²) - Quadratic Space**:
+
+- The algorithm's memory usage grows quadratically with the input size.
+- Example: Storing a 2D matrix.
+
+```cpp
+int** createMatrix(int n) {
+    int** matrix = new int*[n];
+    for (int i = 0; i < n; i++) {
+        matrix[i] = new int[n];
+    }
+    return matrix; // O(n²) space
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

@@ -169,6 +169,26 @@ int linearSearch(int arr[], int size, int target) {
 }
 ```
 
+### Example 2: Merge Sort
+
+- **Time Complexity**: O(n log n).
+- **Space Complexity**: O(n) (due to auxiliary arrays used in merging).
+
+```cpp
+void merge(int arr[], int left, int mid, int right) {
+    // Merges two sorted subarrays
+}
+
+void mergeSort(int arr[], int left, int right) {
+    if (left < right) {
+        int mid = left + (right - left) / 2;
+        mergeSort(arr, left, mid);
+        mergeSort(arr, mid + 1, right);
+        merge(arr, left, mid, right);
+    }
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

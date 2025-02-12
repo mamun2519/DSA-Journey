@@ -189,6 +189,25 @@ void mergeSort(int arr[], int left, int right) {
 }
 ```
 
+### Example 3: Fibonacci (Memoization)
+
+- **Time Complexity**: O(n) (due to memoization).
+- **Space Complexity**: O(n) (due to memoization table).
+
+```cpp
+int fibMemo(int n, vector<int>& memo) {
+    if (n <= 1) return n;
+    if (memo[n] != -1) return memo[n];
+    memo[n] = fibMemo(n - 1, memo) + fibMemo(n - 2, memo);
+    return memo[n];
+}
+
+int fibonacci(int n) {
+    vector<int> memo(n + 1, -1);
+    return fibMemo(n, memo);
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

@@ -96,6 +96,23 @@ Example: Recursive Fibonacci without memoization.
 
 Space complexity measures the amount of memory an algorithm uses as a function of the input size (`n`). It includes both **auxiliary space** (extra space used by the algorithm) and the space used by the input.
 
+## **Common Space Complexities**
+
+### **1. O(1) - Constant Space**:
+
+- The algorithm uses a fixed amount of memory regardless of the input size.
+- Example: Iterative algorithms with a few variables.
+
+```cpp
+int sum(int arr[], int size) {
+    int total = 0;
+    for (int i = 0; i < size; i++) {
+        total += arr[i];
+    }
+    return total; // O(1) space
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

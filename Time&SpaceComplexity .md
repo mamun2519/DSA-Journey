@@ -2,7 +2,7 @@
 
 When analyzing algorithms, time complexity and space complexity are two key metrics used to evaluate their efficiency. These complexities help us understand how an algorithm performs as the input size grows. Below is a detailed explanation of both concepts, along with examples.
 
-## 1. Time complexity
+# 1. Time complexity
 
 ⇒ Not The actual time token but the amount of time taken as a function of input size (n)
 
@@ -92,7 +92,7 @@ The algorithm's runtime doubles with each additional input.
 Example: Recursive Fibonacci without memoization.
 ```
 
-## **2. Space Complexity**
+# **2. Space Complexity**
 
 Space complexity measures the amount of memory an algorithm uses as a function of the input size (`n`). It includes both **auxiliary space** (extra space used by the algorithm) and the space used by the input.
 

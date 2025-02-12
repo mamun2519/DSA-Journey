@@ -39,6 +39,20 @@ int binarySearch(int arr[], int size, int target) {
 }
 ```
 
+### **3. O(n) - Linear Time**:
+
+- The algorithm's runtime grows linearly with the input size.
+- Example: Linear search in an array.
+
+```cpp
+int linearSearch(int arr[], int size, int target) {
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == target) return i;
+    }
+    return -1; // O(n)
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

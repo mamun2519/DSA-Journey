@@ -140,6 +140,19 @@ int** createMatrix(int n) {
 }
 ```
 
+- The algorithm's memory usage grows logarithmically with the input size.
+- Example: Recursive algorithms with balanced recursion depth (e.g., binary search).
+
+```cpp
+int binarySearch(int arr[], int left, int right, int target) {
+    if (left > right) return -1;
+    int mid = left + (right - left) / 2;
+    if (arr[mid] == target) return mid;
+    if (arr[mid] < target) return binarySearch(arr, mid + 1, right, target);
+    return binarySearch(arr, left, mid - 1, target); // O(log n) space
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

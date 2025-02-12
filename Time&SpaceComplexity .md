@@ -155,6 +155,20 @@ int binarySearch(int arr[], int left, int right, int target) {
 
 # Examples of Time and Space Complexity
 
+### **Example 1: Linear Search**
+
+- **Time Complexity**: O(n) (worst case).
+- **Space Complexity**: O(1) (no extra space used).
+
+```cpp
+int linearSearch(int arr[], int size, int target) {
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == target) return i;
+    }
+    return -1;
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

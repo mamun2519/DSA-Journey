@@ -1,5 +1,7 @@
 # Time & Space Complexity
 
+When analyzing algorithms, time complexity and space complexity are two key metrics used to evaluate their efficiency. These complexities help us understand how an algorithm performs as the input size grows. Below is a detailed explanation of both concepts, along with examples.
+
 ## Time complexity
 
 ⇒ Not The actual time token but the amount of time taken as a function of input size (n)

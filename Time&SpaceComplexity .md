@@ -53,6 +53,17 @@ int linearSearch(int arr[], int size, int target) {
 }
 ```
 
+### 4. **O(n log n) - Linearithmic Time**:
+
+- The algorithm's runtime grows in proportion to `n log n`.
+- Example: Efficient sorting algorithms like Merge Sort and Quick Sort.
+
+```cpp
+void mergeSort(int arr[], int size) {
+    // Implementation of Merge Sort (O(n log n))
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

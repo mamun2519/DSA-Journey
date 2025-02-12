@@ -208,6 +208,12 @@ int fibonacci(int n) {
 }
 ```
 
+### There are 3 different notation use notation
+
+- Big - 0 ⇒ Worst Case
+- Big - Omega ⇒ Best Case
+- Big Tita ⇒ Average Case
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

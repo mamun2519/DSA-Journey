@@ -64,6 +64,23 @@ void mergeSort(int arr[], int size) {
 }
 ```
 
+### **5. O(n²) - Quadratic Time**:
+
+- The algorithm's runtime grows quadratically with the input size.
+- Example: Bubble Sort, Selection Sort.
+
+```cpp
+void bubbleSort(int arr[], int size) {
+    for (int i = 0; i < size - 1; i++) {
+        for (int j = 0; j < size - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                swap(arr[j], arr[j + 1]);
+            }
+        }
+    } // O(n²)
+}
+```
+
 ### Problem Solve
 
 Problem 01: Prime Number - Time complexity

@@ -18,6 +18,7 @@ bool isSorted(int arr[], int size)
 {
       for (int i = 1; i < size; i++)
       {
+
             if (arr[i] < arr[i - 1])
             {
                   return false;
@@ -28,7 +29,7 @@ bool isSorted(int arr[], int size)
 
 int main()
 {
-      int arr[] = {10, 20, 40, 50, 300, 800};
+      int arr[] = {10, 20, 50, 40, 300, 800};
       int size = sizeof(arr) / sizeof(arr[0]);
       cout
           << "Max element is " << findMax(arr, size) << endl;

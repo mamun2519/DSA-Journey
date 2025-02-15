@@ -6,7 +6,12 @@ int findMax(int arr[], int size)
       int max = arr[0];
       for (int i = 0; i < size; i++)
       {
+            if (max < arr[i])
+            {
+                  max = arr[i];
+            }
       }
+      return max;
 }
 
 int main()

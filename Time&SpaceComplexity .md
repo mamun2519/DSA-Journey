@@ -287,10 +287,3 @@ int main()
       return 0;
 }
 ```
-
-### Complexity Analysis:
-
-- **Time Complexity**: O(n)
-  - We traverse the array once, so the time complexity is linear.
-- **Space Complexity**: O(1)
-  - We use a constant amount of extra space.

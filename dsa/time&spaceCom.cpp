@@ -28,10 +28,10 @@ bool isSorted(int arr[], int size)
 
 int main()
 {
-      int arr[] = {10, 20, 300, 40, 50, 800};
+      int arr[] = {10, 20, 40, 50, 300, 800};
       int size = sizeof(arr) / sizeof(arr[0]);
       cout
           << "Max element is " << findMax(arr, size) << endl;
-      cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No")endl;
+      cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No") << endl;
       return 0;
 }

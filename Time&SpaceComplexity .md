@@ -217,13 +217,3 @@ int fibonacci(int n) {
 ### Problem Solve
 
 **Task 1: Find the Maximum Element in an Array**
-
-⇒ Given an array of integers, find the maximum element.
-
-**solution**
-
-```cpp
-#include <iostream>
-using namespace std;
-
-```

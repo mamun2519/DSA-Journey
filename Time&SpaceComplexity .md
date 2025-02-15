@@ -216,8 +216,42 @@ int fibonacci(int n) {
 
 ### Problem Solve
 
-Problem 01: Prime Number - Time complexity
+**Task 1: Find the Maximum Element in an Array**
 
-Problem 02: Selection Sort - Time Complexity
+⇒ Given an array of integers, find the maximum element.
 
-Problem 03: Recursive Fibonacci - Time & Space Complexity
+**solution**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int findMax(int arr[], int size)
+{
+      int max = arr[0];
+      for (int i = 0; i < size; i++)
+      {
+            if (arr[i] > max)
+            {
+                  max = arr[i];
+            }
+      }
+      return max;
+}
+
+int main()
+{
+      int arr[] = {10, 20, 300, 40, 50, 800};
+      int size = sizeof(arr) / sizeof(arr[0]);
+      cout
+          << "Max element is " << findMax(arr, size) << endl;
+      return 0;
+}
+```
+
+### Complexity Analysis:
+
+- **Time Complexity**: O(n)
+  - We traverse the array once, so the time complexity is linear.
+- **Space Complexity**: O(1)
+  - We use a constant amount of extra space (a single variable `max`).

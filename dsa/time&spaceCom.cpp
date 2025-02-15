@@ -14,11 +14,24 @@ int findMax(int arr[], int size)
       return max;
 }
 
+bool isSorted(int arr[], int size)
+{
+      for (int i = 1; i < size; i++)
+      {
+            if (arr[i] < arr[i - 1])
+            {
+                  return false;
+            }
+      }
+      return true;
+}
+
 int main()
 {
       int arr[] = {10, 20, 300, 40, 50, 800};
       int size = sizeof(arr) / sizeof(arr[0]);
       cout
           << "Max element is " << findMax(arr, size) << endl;
+      cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No")endl;
       return 0;
 }

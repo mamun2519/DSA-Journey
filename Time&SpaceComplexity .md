@@ -255,3 +255,42 @@ int main()
   - We traverse the array once, so the time complexity is linear.
 - **Space Complexity**: O(1)
   - We use a constant amount of extra space (a single variable `max`).
+
+**Task 2: Check if an Array is Sorted**
+
+⇒ Given an array of integers, check if it is sorted in non-decreasing order.
+
+**solution**
+
+```cpp
+
+bool isSorted(int arr[], int size)
+{
+      for (int i = 1; i < size; i++)
+      {
+
+            if (arr[i] < arr[i - 1])
+            {
+                  return false;
+            }
+      }
+      return true;
+}
+
+int main()
+{
+      int arr[] = {10, 20, 50, 40, 300, 800};
+      int size = sizeof(arr) / sizeof(arr[0]);
+      cout
+          << "Max element is " << findMax(arr, size) << endl;
+      cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No") << endl;
+      return 0;
+}
+```
+
+### Complexity Analysis:
+
+- **Time Complexity**: O(n)
+  - We traverse the array once, so the time complexity is linear.
+- **Space Complexity**: O(1)
+  - We use a constant amount of extra space.

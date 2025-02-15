@@ -219,5 +219,3 @@ int fibonacci(int n) {
 Problem 01: Prime Number - Time complexity
 
 Problem 02: Selection Sort - Time Complexity
-
-Problem 03: Recursive Fibonacci - Time & Space Complexity

@@ -14,30 +14,28 @@ int findMax(int arr[], int size)
       return max;
 }
 
-/* bool isSorted(int arr[], int size)
-{
-      for (int i = 1; i < size; i++)
-      {
-
-            if (arr[i] < arr[i - 1])
-            {
-                  return false;
-            }
-      }
-      return true;
-} */
-
 bool isSorted(int arr[], int size)
 {
       for (int i = 1; i < size; i++)
       {
+
             if (arr[i] < arr[i - 1])
             {
                   return false;
             }
       }
-
       return true;
+}
+
+void reverseArray(int arr[], int size)
+{
+      int start = 0;
+      int end = size - 1;
+      while (start < end)
+      {
+            swap(arr[start], arr[end]);
+            start++ end--;
+      }
 }
 
 int main()
@@ -47,5 +45,8 @@ int main()
       cout
           << "Max element is " << findMax(arr, size) << endl;
       cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No") << endl;
+
+      //* Reverse real array
+      reverseArray(arr, size);
       return 0;
 }

@@ -76,5 +76,6 @@ int main()
       {
             cout << arr[i] << endl;
       }
+      cout << "Secend Largest Element is " << findSecondLargest(ar) << endl;
       return 0;
 }

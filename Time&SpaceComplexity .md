@@ -294,3 +294,49 @@ int main()
   - We traverse the array once, so the time complexity is linear.
 - **Space Complexity**: O(1)
   - We use a constant amount of extra space.
+
+**Task 3: Reverse an Array**
+
+⇒ Given an array of integers, reverse the array in place.
+
+**Solution:**
+
+```cpp
+
+void reverseArray(int arr[], int size)
+{
+      int start = 0;
+      int end = size - 1;
+      for (int i = 0; i < size; i++)
+      {
+            if (start < end)
+            {
+                  swap(arr[start], arr[end]);
+                  start++;
+                  end--;
+            }
+      }
+}
+
+int main()
+{
+      int arr[] = {10, 20, 40, 50, 300, 800, 500};
+      int size = sizeof(arr) / sizeof(arr[0]);
+
+
+      //* Reverse real array
+      reverseArray(arr, size);
+      for (int i = 0; i < size; i++)
+      {
+            cout << arr[i] << endl;
+      }
+      return 0;
+}
+```
+
+### Complexity Analysis:
+
+- **Time Complexity**: O(n)
+  - We traverse half of the array, so the time complexity is linear.
+- **Space Complexity**: O(1)
+  - We use a constant amount of extra space.

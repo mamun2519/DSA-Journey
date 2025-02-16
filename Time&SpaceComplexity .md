@@ -346,27 +346,3 @@ int main()
 ⇒ Given an array of integers, find the second largest element.
 
 **Solution:**
-
-```cpp
-int findSecondLargest(int arr[], int size)
-{
-      int firstElement = INT_MIN;
-      int secondElement = INT_MIN;
-      for (int i = 0; i < size; i++)
-      {
-            if (arr[i] > firstElement)
-            {
-                  secondElement = firstElement;
-                  firstElement = arr[i];
-            }
-            else if (arr[i] > secondElement && arr[i] != firstElement)
-            {
-                  secondElement = arr[i];
-            }
-      }
-
-      return secondElement;
-}
-
-
-```

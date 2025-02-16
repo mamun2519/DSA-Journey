@@ -50,9 +50,16 @@ int findSecondLargest(int arr[], int size)
       {
             if (arr[i] > firstElement)
             {
-                  secondElement =
+                  secondElement = firstElement;
+                  firstElement = arr[i]
+            }
+            else if (arr[i] > secondElement && arr[i] != = firstElement)
+            {
+                  secondElement = arr[i];
             }
       }
+
+      return secondElement;
 }
 
 int main()

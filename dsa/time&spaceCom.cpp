@@ -42,6 +42,19 @@ void reverseArray(int arr[], int size)
       }
 }
 
+int findSecondLargest(int arr[], int size)
+{
+      int firstElement;
+      int secondElement;
+      for (int i = 0; i < size; i++)
+      {
+            if (arr[i] > firstElement)
+            {
+                  secondElement =
+            }
+      }
+}
+
 int main()
 {
       int arr[] = {10, 20, 40, 50, 300, 800, 500};

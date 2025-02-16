@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int findMax(int arr[], int size)
 {
       int max = arr[0];
@@ -13,8 +13,8 @@ int findMax(int arr[], int size)
       }
       return max;
 }
- */
-bool isSorted(int arr[], int size)
+
+/* bool isSorted(int arr[], int size)
 {
       for (int i = 1; i < size; i++)
       {
@@ -25,20 +25,8 @@ bool isSorted(int arr[], int size)
             }
       }
       return true;
-}
+} */
 
-int findMax(int arr[], int size)
-{
-      int max = arr[0];
-      for (int i = 0; i < size; i++)
-      {
-            if (max < arr[i])
-            {
-                  max = arr[i];
-            }
-      }
-      return max;
-}
 int main()
 {
       int arr[] = {10, 20, 50, 40, 300, 800};

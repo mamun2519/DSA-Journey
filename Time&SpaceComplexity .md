@@ -368,6 +368,8 @@ int findSecondLargest(int arr[], int size)
       return secondElement;
 }
 
+
+
 int main()
 {
       int arr[] = {10, 20, 40, 50, 300, 800, 500};

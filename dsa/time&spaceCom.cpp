@@ -63,9 +63,36 @@ int findSecondLargest(int arr[], int size)
       return secondElement;
 }
 
+int findMissingNumber(int arr[], int size)
+{
+      int total = (size + 1) * (size + 2) / 2; // Sum of first (n+1) natural numbers
+      cout << total;
+      for (int i = 0; i < size; i++)
+      {
+            total -= arr[i];
+      }
+      return total;
+}
+
+int findDuplicate(int arr[], int size)
+{
+      for (int i = 0; i < size; i++)
+      {
+            for (int j = i + 1; j < size; j++)
+            {
+                  if (arr[i] == arr[j])
+                  {
+                        return arr[i];
+                  }
+            }
+      }
+      return -1; // No duplicate found
+}
+
 int main()
 {
       int arr[] = {10, 20, 40, 50, 300, 800, 500};
+      int arr2[] = {1, 2, 4, 5, 6, 2};
       int size = sizeof(arr) / sizeof(arr[0]);
       cout
           << "Max element is " << findMax(arr, size) << endl;
@@ -78,5 +105,7 @@ int main()
             cout << arr[i] << endl;
       }
       cout << "Secend Largest Element is " << findSecondLargest(arr, size) << endl;
+      cout << "Missing number: " << findMissingNumber(arr2, size) << endl;
+      cout << "Duplicate number: " << findDuplicate(arr, size) << endl;
       return 0;
 }

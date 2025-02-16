@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 using namespace std;
 
 int findMax(int arr[], int size)
@@ -44,16 +45,16 @@ void reverseArray(int arr[], int size)
 
 int findSecondLargest(int arr[], int size)
 {
-      int firstElement;
-      int secondElement;
+      int firstElement = INT_MIN;
+      int secondElement = INT_MIN;
       for (int i = 0; i < size; i++)
       {
             if (arr[i] > firstElement)
             {
                   secondElement = firstElement;
-                  firstElement = arr[i]
+                  firstElement = arr[i];
             }
-            else if (arr[i] > secondElement && arr[i] != = firstElement)
+            else if (arr[i] > secondElement && arr[i] != firstElement)
             {
                   secondElement = arr[i];
             }
@@ -76,6 +77,6 @@ int main()
       {
             cout << arr[i] << endl;
       }
-      cout << "Secend Largest Element is " << findSecondLargest(ar) << endl;
+      cout << "Secend Largest Element is " << findSecondLargest(arr, size) << endl;
       return 0;
 }

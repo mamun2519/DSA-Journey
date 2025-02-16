@@ -92,7 +92,7 @@ int findDuplicate(int arr[], int size)
 int main()
 {
       int arr[] = {10, 20, 40, 50, 300, 800, 500};
-      int arr2[] = {1, 2, 4, 5, 6, 2};
+      int arr2[] = {1, 2, 4, 5, 6, 2, 1};
       int size = sizeof(arr) / sizeof(arr[0]);
       cout
           << "Max element is " << findMax(arr, size) << endl;
@@ -106,6 +106,6 @@ int main()
       }
       cout << "Secend Largest Element is " << findSecondLargest(arr, size) << endl;
       cout << "Missing number: " << findMissingNumber(arr2, size) << endl;
-      cout << "Duplicate number: " << findDuplicate(arr, size) << endl;
+      cout << "Duplicate number: " << findDuplicate(arr2, size) << endl;
       return 0;
 }

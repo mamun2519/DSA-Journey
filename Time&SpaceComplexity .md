@@ -340,3 +340,9 @@ int main()
   - We traverse half of the array, so the time complexity is linear.
 - **Space Complexity**: O(1)
   - We use a constant amount of extra space.
+
+**Task 4: Find the Second Largest Element in an Array**
+
+⇒ Given an array of integers, find the second largest element.
+
+**Solution:**

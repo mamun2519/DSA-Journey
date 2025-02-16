@@ -31,16 +31,20 @@ void reverseArray(int arr[], int size)
 {
       int start = 0;
       int end = size - 1;
-      while (start < end)
+      for (int i = 0; i < size; i++)
       {
-            swap(arr[start], arr[end]);
-            start++ end--;
+            if (start < end)
+            {
+                  swap(arr[start], arr[end]);
+                  start++;
+                  end--;
+            }
       }
 }
 
 int main()
 {
-      int arr[] = {10, 20, 40, 50, 300, 800};
+      int arr[] = {10, 20, 40, 50, 300, 800, 500};
       int size = sizeof(arr) / sizeof(arr[0]);
       cout
           << "Max element is " << findMax(arr, size) << endl;

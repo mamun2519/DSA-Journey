@@ -48,5 +48,9 @@ int main()
 
       //* Reverse real array
       reverseArray(arr, size);
+      for (int i = 0; i < size; i++)
+      {
+            cout << arr[i] << endl;
+      }
       return 0;
 }

@@ -77,3 +77,16 @@ for (int i = 0; i < 3; i++) {
 ### Passing Pointers to Functions
 
 - Pointers can be passed to functions to modify the original variable.
+
+```cpp
+void increment(int *ptr) {
+    (*ptr)++; // Increment the value at the address ptr points to
+}
+
+int main() {
+    int x = 10;
+    increment(&x); // Pass the address of x
+    cout << x; // Output: 11
+    return 0;
+}
+```

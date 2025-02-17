@@ -113,3 +113,7 @@ int main() {
     return 0;
 }
 ```
+
+## **5. Pointers and Dynamic Memory Allocation**
+
+- Use `new` to dynamically allocate memory and `delete` to free it.

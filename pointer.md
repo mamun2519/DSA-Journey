@@ -2,19 +2,4 @@
 
 ## Pointers
 
-⇒ special variables that store addresses of other variables
-
-### Null Pointer
-
-⇒ a pointer that doesn't point to any location.
-
-⇒ int\* prt = null
-
-### Pass By Reference (alias)
-
-⇒ refresher
-
-### Pointer Arithemetic
-
-- Increment (++) / Decrement (—)
-- add / Subtract number
+a pointer in C++ is a variable that stores the memory address of another variable. Pointers are powerful tools that allow you to directly manipulate memory, which can lead to more efficient and flexible code.

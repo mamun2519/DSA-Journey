@@ -49,3 +49,7 @@ cout << *ptr; // Output: 10
 ptr++;        // Move to the next element
 cout << *ptr; // Output: 20
 ```
+
+## **3. Pointers and Arrays**
+
+- Arrays and pointers are closely related. The name of an array is essentially a pointer to its first element.

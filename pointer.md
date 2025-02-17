@@ -143,3 +143,10 @@ cout << **ptr2; // Output: 10
 ## 7. **Null Pointers**
 
 - A null pointer does not point to any memory location. It is often used to indicate that a pointer is not initialized or is invalid.
+
+```cpp
+int *ptr = nullptr; // Initialize to null
+if (ptr == nullptr) {
+    cout << "Pointer is null";
+}
+```

@@ -29,3 +29,9 @@ cout << *ptr; // Output: 10 (value of x)
 ### Assigning Addresses
 
 - You can assign the address of a variable to a pointer.
+
+```cpp
+int y = 20;
+ptr = &y; // ptr now points to y
+cout << *ptr; // Output: 20
+```

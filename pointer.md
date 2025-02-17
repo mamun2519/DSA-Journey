@@ -53,3 +53,10 @@ cout << *ptr; // Output: 20
 ## **3. Pointers and Arrays**
 
 - Arrays and pointers are closely related. The name of an array is essentially a pointer to its first element.
+
+```cpp
+int arr[3] = {10, 20, 30};
+int *ptr = arr; // ptr points to the first element of the array
+
+cout << *(ptr + 1); // Output: 20 (second element)
+```

@@ -15,3 +15,7 @@ a pointer in C++ is a variable that stores the memory address of another variabl
 int x = 10;       // Declare an integer variable
 int *ptr = &x;    // Declare a pointer and initialize it with the address of x
 ```
+
+### **Accessing Values**
+
+- Use the `` operator to access the value stored at the memory address the pointer points to (this is called **dereferencing**).

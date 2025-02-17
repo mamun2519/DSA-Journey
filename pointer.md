@@ -90,3 +90,7 @@ int main() {
     return 0;
 }
 ```
+
+### Returning Pointers from Functions
+
+- Functions can return pointers, but you must ensure the memory being pointed to is still valid after the function ends.

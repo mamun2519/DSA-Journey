@@ -35,3 +35,8 @@ int y = 20;
 ptr = &y; // ptr now points to y
 cout << *ptr; // Output: 20
 ```
+
+### Pointer Arithmetic
+
+- Pointers can be incremented or decremented to navigate through memory.
+- The size of the data type the pointer points to determines how much the pointer moves.

@@ -40,3 +40,12 @@ cout << *ptr; // Output: 20
 
 - Pointers can be incremented or decremented to navigate through memory.
 - The size of the data type the pointer points to determines how much the pointer moves.
+
+```cpp
+int arr[3] = {10, 20, 30};
+int *ptr = arr; // Points to the first element of the array
+
+cout << *ptr; // Output: 10
+ptr++;        // Move to the next element
+cout << *ptr; // Output: 20
+```

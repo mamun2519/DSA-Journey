@@ -117,3 +117,13 @@ int main() {
 ## **5. Pointers and Dynamic Memory Allocation**
 
 - Use `new` to dynamically allocate memory and `delete` to free it.
+
+```cpp
+int *ptr = new int; // Allocate memory for a single integer
+*ptr = 10;          // Assign a value
+cout << *ptr;       // Output: 10
+delete ptr;         // Free the memory
+
+int *arr = new int[5]; // Allocate memory for an array of 5 integers
+delete[] arr;          // Free the memory
+```

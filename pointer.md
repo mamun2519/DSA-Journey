@@ -19,3 +19,7 @@ int *ptr = &x;    // Declare a pointer and initialize it with the address of x
 ### **Accessing Values**
 
 - Use the `` operator to access the value stored at the memory address the pointer points to (this is called **dereferencing**).
+
+```cpp
+cout << *ptr; // Output: 10 (value of x)
+```

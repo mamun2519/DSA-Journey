@@ -23,3 +23,9 @@ int *ptr = &x;    // Declare a pointer and initialize it with the address of x
 ```cpp
 cout << *ptr; // Output: 10 (value of x)
 ```
+
+## **2. Pointer Operations**
+
+### Assigning Addresses
+
+- You can assign the address of a variable to a pointer.

@@ -10,3 +10,8 @@ a pointer in C++ is a variable that stores the memory address of another variabl
 
 - A pointer is declared using the `` symbol.
 - The `&` operator is used to get the address of a variable.
+
+```cpp
+int x = 10;       // Declare an integer variable
+int *ptr = &x;    // Declare a pointer and initialize it with the address of x
+```

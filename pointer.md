@@ -13,3 +13,8 @@
 ### Pass By Reference (alias)
 
 ⇒ refresher
+
+### Pointer Arithemetic
+
+- Increment (++) / Decrement (—)
+- add / Subtract number

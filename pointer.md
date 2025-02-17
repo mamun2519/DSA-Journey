@@ -71,3 +71,9 @@ for (int i = 0; i < 3; i++) {
     cout << *(ptr + i) << " "; // Output: 10 20 30
 }
 ```
+
+## **4. Pointers and Functions**
+
+### Passing Pointers to Functions
+
+- Pointers can be passed to functions to modify the original variable.

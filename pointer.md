@@ -131,3 +131,11 @@ delete[] arr;          // Free the memory
 ## **6. Pointer to Pointer**
 
 - A pointer can also point to another pointer.
+
+```cpp
+int x = 10;
+int *ptr = &x;
+int **ptr2 = &ptr; // Pointer to a pointer
+
+cout << **ptr2; // Output: 10
+```

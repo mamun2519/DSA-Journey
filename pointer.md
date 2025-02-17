@@ -94,3 +94,22 @@ int main() {
 ### Returning Pointers from Functions
 
 - Functions can return pointers, but you must ensure the memory being pointed to is still valid after the function ends.
+
+```cpp
+int* createArray(int size) {
+    int *arr = new int[size]; // Dynamically allocate memory
+    for (int i = 0; i < size; i++) {
+        arr[i] = i + 1;
+    }
+    return arr; // Return the pointer to the array
+}
+
+int main() {
+    int *arr = createArray(5);
+    for (int i = 0; i < 5; i++) {
+        cout << arr[i] << " "; // Output: 1 2 3 4 5
+    }
+    delete[] arr; // Free the allocated memory
+    return 0;
+}
+```

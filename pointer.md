@@ -9,3 +9,7 @@
 ⇒ a pointer that doesn't point to any location.
 
 ⇒ int\* prt = null
+
+### Pass By Reference (alias)
+
+⇒ refresher

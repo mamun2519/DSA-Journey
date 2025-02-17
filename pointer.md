@@ -127,3 +127,7 @@ delete ptr;         // Free the memory
 int *arr = new int[5]; // Allocate memory for an array of 5 integers
 delete[] arr;          // Free the memory
 ```
+
+## **6. Pointer to Pointer**
+
+- A pointer can also point to another pointer.

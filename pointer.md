@@ -60,3 +60,14 @@ int *ptr = arr; // ptr points to the first element of the array
 
 cout << *(ptr + 1); // Output: 20 (second element)
 ```
+
+**Traversing an Array Using Pointers**
+
+```cpp
+int arr[3] = {10, 20, 30};
+int *ptr = arr;
+
+for (int i = 0; i < 3; i++) {
+    cout << *(ptr + i) << " "; // Output: 10 20 30
+}
+```

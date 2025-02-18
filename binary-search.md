@@ -9,3 +9,4 @@ Implementation:
 
 - giving array
 - target
+- retune targeted index

@@ -15,3 +15,17 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
 3. **Space Complexity:**
 
 - O(1): Uses a constant amount of extra space.
+
+## How Binary Search Works
+
+1. Start with the entire sorted array.
+
+2. Compare the target value with the middle element of the array.
+
+   - If the target value is equal to the middle element, return the index.
+
+   - If the target value is less than the middle element, search the left half.
+
+   - If the target value is greater than the middle element, search the right half.
+
+3. Repeat the process until the target is found or the search interval is empty.

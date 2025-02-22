@@ -65,3 +65,38 @@ int main() {
     return 0;
 }
 ```
+
+## Binary Search Algorithm (Recursive Approach)
+
+```js
+#include <iostream>
+using namespace std;
+
+int binarySearchRecursive(int arr[], int left, int right, int target) {
+    if (left > right) {
+        return -1; // Base case: target not found
+    }
+    int mid = left + (right - left) / 2; // Avoids overflow
+    if (arr[mid] == target) {
+        return mid; // Target found
+    } else if (arr[mid] < target) {
+        return binarySearchRecursive(arr, mid + 1, right, target); // Search right half
+    } else {
+        return binarySearchRecursive(arr, left, mid - 1, target); // Search left half
+    }
+}
+
+int main() {
+    int arr[] = {10, 20, 30, 40, 50};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int target = 30;
+
+    int result = binarySearchRecursive(arr, 0, size - 1, target);
+    if (result != -1) {
+        cout << "Element found at index: " << result << endl;
+    } else {
+        cout << "Element not found in the array." << endl;
+    }
+    return 0;
+}
+```

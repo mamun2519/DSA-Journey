@@ -10,7 +10,7 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
 
 2. **Time Complexity:**
 
-O(log n): Much faster than linear search (O(n)) for large datasets.
+- O(log n): Much faster than linear search (O(n)) for large datasets.
 
 Space Complexity:
 

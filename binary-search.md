@@ -100,3 +100,17 @@ int main() {
     return 0;
 }
 ```
+
+### Complexity Analysis
+
+**Time Complexity**
+
+- O(log n):
+
+  - The search space is halved in each step, leading to a logarithmic number of comparisons.
+
+**Space Complexity**
+
+- Iterative Approach: O(1) (constant space).
+
+- Recursive Approach: O(log n) (due to the recursion stack).

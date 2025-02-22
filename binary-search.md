@@ -29,3 +29,39 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
    - If the target value is greater than the middle element, search the right half.
 
 3. Repeat the process until the target is found or the search interval is empty.
+
+## Binary Search Algorithm (Iterative Approach)
+
+```js
+#include <iostream>
+using namespace std;
+
+int binarySearch(int arr[], int size, int target) {
+    int left = 0, right = size - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2; // Avoids overflow
+        if (arr[mid] == target) {
+            return mid; // Target found
+        } else if (arr[mid] < target) {
+            left = mid + 1; // Search the right half
+        } else {
+            right = mid - 1; // Search the left half
+        }
+    }
+    return -1; // Target not found
+}
+
+int main() {
+    int arr[] = {10, 20, 30, 40, 50};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int target = 30;
+
+    int result = binarySearch(arr, size, target);
+    if (result != -1) {
+        cout << "Element found at index: " << result << endl;
+    } else {
+        cout << "Element not found in the array." << endl;
+    }
+    return 0;
+}
+```

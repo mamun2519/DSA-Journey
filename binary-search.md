@@ -114,3 +114,15 @@ int main() {
 - Iterative Approach: O(1) (constant space).
 
 - Recursive Approach: O(log n) (due to the recursion stack).
+
+## Advantages of Binary Search
+
+- Efficient: Much faster than linear search for large datasets.
+
+- Simple: Easy to implement once the array is sorted.
+
+## Disadvantages of Binary Search
+
+- Requires Sorted Data: The array must be sorted before applying binary search.
+
+- Not Suitable for Linked Lists: Binary search requires random access, which is not efficient in linked lists.

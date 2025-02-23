@@ -7,6 +7,6 @@ int binarySearch(int arr[], int size, int target)
       int right = size - 1;
       while (left <= right)
       {
-            /* code */
+            int mid = left + (right - left) / 2;
       }
 }

@@ -9,4 +9,3 @@
   - Percentage
   - coordinate system
   - Basic geo mertry
-  - Number systems

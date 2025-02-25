@@ -10,3 +10,7 @@
   - coordinate system
   - Basic geo mertry
   - Number systems
+  - but you must “understand” the concept properly
+- Long Anser: it depends on what you are going to do in feture
+  - Game Development
+    - 3D games 3d Graphics

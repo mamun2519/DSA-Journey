@@ -10,4 +10,3 @@
   - coordinate system
   - Basic geo mertry
   - Number systems
-  - but you must “understand” the concept properly

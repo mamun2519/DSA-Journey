@@ -8,4 +8,3 @@
   - % (mod), even-odd
   - Percentage
   - coordinate system
-  - Basic geo mertry

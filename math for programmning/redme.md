@@ -6,5 +6,3 @@
   - school level mathematics are more than enough for top programmer
   - +, -, / , \*
   - % (mod), even-odd
-  - Percentage
-  - coordinate system

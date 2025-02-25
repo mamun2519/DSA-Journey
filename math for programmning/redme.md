@@ -16,3 +16,6 @@
     - 3D games 3d Graphics
     - Trigonometry, Liner Algebra, Matrices
   - Cryptography
+    - Number theory
+  - Machine Learning
+    - Liner Algebra, Calculus

@@ -17,4 +17,3 @@
     - Trigonometry, Liner Algebra, Matrices
   - Cryptography
     - Number theory
-  - Machine Learning

@@ -19,4 +19,3 @@
     - Number theory
   - Machine Learning
     - Liner Algebra, Calculus
-    - Probability, statistics

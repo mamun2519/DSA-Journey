@@ -16,4 +16,3 @@
     - 3D games 3d Graphics
     - Trigonometry, Liner Algebra, Matrices
   - Cryptography
-    - Number theory

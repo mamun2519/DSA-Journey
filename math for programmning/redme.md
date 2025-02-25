@@ -18,4 +18,3 @@
   - Cryptography
     - Number theory
   - Machine Learning
-    - Liner Algebra, Calculus

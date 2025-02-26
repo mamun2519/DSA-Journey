@@ -360,4 +360,13 @@ int findSecondLargest(int arr[], int size)
                   firstElement = arr[i];
             }
             else if (arr[i] > secondElement && arr[i] != firstElement)
+            {
+                  secondElement = arr[i];
+            }
+      }
+
+      return secondElement;
+}
+
+
 ```

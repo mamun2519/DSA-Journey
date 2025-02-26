@@ -378,5 +378,42 @@ int main()
           << "Max element is " << findMax(arr, size) << endl;
       cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No") << endl;
 
+      //* Reverse real array
+      reverseArray(arr, size);
+      for (int i = 0; i < size; i++)
+      {
+            cout << arr[i] << endl;
+      }
+      cout << "Secend Largest Element is " << findSecondLargest(arr, size) << endl;
+      return 0;
+}
+```
 
+**Task 5: Find the Duplicate Number in an Array**
+
+⇒ Given an array of integers where one number is duplicated, find the duplicate number.
+
+**Solution:**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int findDuplicate(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        for (int j = i + 1; j < size; j++) {
+            if (arr[i] == arr[j]) {
+                return arr[i];
+            }
+        }
+    }
+    return -1; // No duplicate found
+}
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 2};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    cout << "Duplicate number: " << findDuplicate(arr, size) << endl;
+    return 0;
+}
 ```

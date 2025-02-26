@@ -285,7 +285,4 @@ int main()
           << "Max element is " << findMax(arr, size) << endl;
       cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No") << endl;
       return 0;
-}
 ```
-
-### Complexity Analysis:

@@ -333,9 +333,3 @@ int main()
       return 0;
 }
 ```
-
-### Complexity Analysis:
-
-- **Time Complexity**: O(n)
-  - We traverse half of the array, so the time complexity is linear.
-- **Space Complexity**: O(1)

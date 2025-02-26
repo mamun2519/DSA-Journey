@@ -378,13 +378,5 @@ int main()
           << "Max element is " << findMax(arr, size) << endl;
       cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No") << endl;
 
-      //* Reverse real array
-      reverseArray(arr, size);
-      for (int i = 0; i < size; i++)
-      {
-            cout << arr[i] << endl;
-      }
-      cout << "Secend Largest Element is " << findSecondLargest(arr, size) << endl;
-      return 0;
-}
+
 ```

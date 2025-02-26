@@ -285,4 +285,16 @@ int main()
           << "Max element is " << findMax(arr, size) << endl;
       cout << "Is the array sorted ?" << (isSorted(arr, size) ? "Yes" : "No") << endl;
       return 0;
+}
+```
+
+### Complexity Analysis:
+
+- **Time Complexity**: O(n)
+  - We traverse the array once, so the time complexity is linear.
+- **Space Complexity**: O(1)
+  - We use a constant amount of extra space.
+
+```
+
 ```

@@ -392,11 +392,3 @@ int main()
 **Task 5: Find the Duplicate Number in an Array**
 
 ⇒ Given an array of integers where one number is duplicated, find the duplicate number.
-
-**Solution:**
-
-```cpp
-#include <iostream>
-using namespace std;
-
-```

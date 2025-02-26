@@ -410,10 +410,5 @@ int findDuplicate(int arr[], int size) {
     return -1; // No duplicate found
 }
 
-int main() {
-    int arr[] = {1, 2, 3, 4, 2};
-    int size = sizeof(arr) / sizeof(arr[0]);
-    cout << "Duplicate number: " << findDuplicate(arr, size) << endl;
-    return 0;
-}
+\
 ```

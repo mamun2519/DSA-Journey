@@ -310,12 +310,5 @@ void reverseArray(int arr[], int size)
       for (int i = 0; i < size; i++)
       {
             if (start < end)
-            {
-                  swap(arr[start], arr[end]);
-                  start++;
-                  end--;
-            }
-      }
-}
 
 ```

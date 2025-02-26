@@ -295,12 +295,6 @@ int main()
 - **Space Complexity**: O(1)
   - We use a constant amount of extra space.
 
-**Task 3: Reverse an Array**
-
-⇒ Given an array of integers, reverse the array in place.
-
-**Solution:**
-
-```cpp
+```
 
 ```

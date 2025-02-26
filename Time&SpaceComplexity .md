@@ -328,4 +328,14 @@ int main()
       reverseArray(arr, size);
       for (int i = 0; i < size; i++)
       {
+            cout << arr[i] << endl;
+      }
+      return 0;
+}
 ```
+
+### Complexity Analysis:
+
+- **Time Complexity**: O(n)
+  - We traverse half of the array, so the time complexity is linear.
+- **Space Complexity**: O(1)

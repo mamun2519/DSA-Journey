@@ -152,5 +152,3 @@ v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
 ### Static Vs Dynamic Allocation of Memory
 
 - Static data allocates compile time. like array
-- dynamic allocation run time
-- static memory allocates stack

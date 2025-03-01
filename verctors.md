@@ -179,5 +179,3 @@ brute Force Approach
 ```cpp
 {3, -4,5,4,-1,7,-8}
 ```
-
-- Problem 03: Pair Sum ⇒ return pair in sorted array with target sum

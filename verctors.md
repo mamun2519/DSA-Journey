@@ -137,10 +137,3 @@ v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
 ---
 
 ## Disadvantages of Vectors
-
-1. **Overhead**: Slightly more overhead compared to traditional arrays due to dynamic resizing.
-2. **Insertion/Deletion in the Middle**: Can be inefficient (O(n)) due to element shifting.
-
----
-
-## When to Use Vectors

@@ -130,5 +130,3 @@ v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
 ## Advantages of Vectors
 
 1. **Dynamic Resizing**: Automatically adjusts size as elements are added or removed.
-2. **Efficient Access**: Provides constant-time access to elements using indices.
-3. **Rich Functionality**: Comes with many built-in functions for common operations.

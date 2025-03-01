@@ -154,3 +154,8 @@ v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
 - Static data allocates compile time. like array
 - dynamic allocation run time
 - static memory allocates stack
+- dynamic stack allocates heap
+
+**vector Has two property**
+
+- size of

@@ -172,3 +172,10 @@ use ⇒ bitwise XOR
 # Array and vectors Problem-solving
 
 - Problem 01: Maximum Subarray Sum
+- Problem 02: Maximum Subarray sum
+
+brute Force Approach
+
+```cpp
+{3, -4,5,4,-1,7,-8}
+```

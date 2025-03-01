@@ -132,8 +132,3 @@ v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
 1. **Dynamic Resizing**: Automatically adjusts size as elements are added or removed.
 2. **Efficient Access**: Provides constant-time access to elements using indices.
 3. **Rich Functionality**: Comes with many built-in functions for common operations.
-4. **Memory Management**: Handles memory allocation and deallocation automatically.
-
----
-
-## Disadvantages of Vectors

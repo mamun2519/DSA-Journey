@@ -164,3 +164,7 @@ v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
 **Problem 01:** find a unique element in vectors
 
 use ⇒ bitwise XOR
+
+**Homework**
+
+- liner search implemented in vector

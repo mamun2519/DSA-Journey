@@ -148,7 +148,3 @@ v.insert(v.begin() + 1, 15); // Inserts 15 at index 1
 - When you need a dynamic array that can grow or shrink in size.
 - When you want automatic memory management.
 - When you need frequent access to elements using indices.
-
-### Static Vs Dynamic Allocation of Memory
-
-- Static data allocates compile time. like array

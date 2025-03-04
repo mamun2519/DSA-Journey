@@ -10,9 +10,9 @@ Below is an overview of common sorting algorithms, their time complexity, space 
 
 - **Time Complexity:**
 
-Best: O(n) (when the array is already sorted).
+      - **Best:** O(n) (when the array is already sorted).
 
-Average/Worst: O(n²).
+      - **Average/Worst:** O(n²).
 
 Space Complexity: O(1) (in-place sorting).
 

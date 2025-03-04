@@ -36,7 +36,7 @@ void bubbleSort(int arr[], int size) {
 
 ## 2. Selection Sort
 
-How it works: Repeatedly selects the smallest (or largest) element from the unsorted portion and swaps it with the first unsorted element.
+- **How it works:** Repeatedly selects the smallest (or largest) element from the unsorted portion and swaps it with the first unsorted element.
 
 Time Complexity:
 

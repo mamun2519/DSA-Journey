@@ -44,6 +44,6 @@ void bubbleSort(int arr[], int size) {
 
       - **Space Complexity:** O(1) (in-place sorting).
 
-Stable: No.
+      - **Stable:** No.
 
 Use Case: Simple but inefficient for large datasets.

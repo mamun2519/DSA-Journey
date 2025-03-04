@@ -40,7 +40,7 @@ void bubbleSort(int arr[], int size) {
 
 - **Time Complexity:**
 
-Best/Average/Worst: O(n²).
+      - **Best/Average/Worst:** O(n²).
 
 Space Complexity: O(1) (in-place sorting).
 

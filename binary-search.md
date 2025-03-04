@@ -126,3 +126,7 @@ int main() {
 - Requires Sorted Data: The array must be sorted before applying binary search.
 
 - Not Suitable for Linked Lists: Binary search requires random access, which is not efficient in linked lists.
+
+## Problem Solving
+
+- **1: Single Element In sorted Array**

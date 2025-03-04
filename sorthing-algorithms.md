@@ -74,7 +74,7 @@ void selectionSort(int arr[], int size) {
 
       - **Average/Worst:** O(n²).
 
-Space Complexity: O(1) (in-place sorting).
+- **Space Complexity:** O(1) (in-place sorting).
 
 Stable: Yes.
 

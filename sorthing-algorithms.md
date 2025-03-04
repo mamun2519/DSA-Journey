@@ -18,4 +18,4 @@ Below is an overview of common sorting algorithms, their time complexity, space 
 
 - **Stable:** Yes.
 
-Use Case: Simple and easy to implement, but inefficient for large datasets.
+- **Use Case:** Simple and easy to implement, but inefficient for large datasets.

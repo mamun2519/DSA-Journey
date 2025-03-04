@@ -8,7 +8,7 @@ Below is an overview of common sorting algorithms, their time complexity, space 
 
 - **How it works:** Repeatedly swaps adjacent elements if they are in the wrong order.
 
-Time Complexity:
+- **Time Complexity:**
 
 Best: O(n) (when the array is already sorted).
 

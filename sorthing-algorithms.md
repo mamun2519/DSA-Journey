@@ -83,15 +83,15 @@ void selectionSort(int arr[], int size) {
 ### Example
 
 ```cpp
-void selectionSort(int arr[], int size) {
-    for (int i = 0; i < size - 1; i++) {
-        int minIndex = i;
-        for (int j = i + 1; j < size; j++) {
-            if (arr[j] < arr[minIndex]) {
-                minIndex = j;
-            }
+void insertionSort(int arr[], int size) {
+    for (int i = 1; i < size; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
         }
-        swap(arr[i], arr[minIndex]);
+        arr[j + 1] = key;
     }
 }
 ```

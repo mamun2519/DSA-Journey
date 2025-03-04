@@ -66,7 +66,7 @@ void selectionSort(int arr[], int size) {
 
 ## 3. Insertion Sort
 
-How it works: Builds the sorted array one element at a time by inserting each element into its correct position in the sorted portion.
+- **How it works:** Builds the sorted array one element at a time by inserting each element into its correct position in the sorted portion.
 
 Time Complexity:
 

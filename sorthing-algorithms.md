@@ -20,6 +20,8 @@ Below is an overview of common sorting algorithms, their time complexity, space 
 
 - **Use Case:** Simple and easy to implement, but inefficient for large datasets.
 
+### Example
+
 ```cpp
 void bubbleSort(int arr[], int size) {
     for (int i = 0; i < size - 1; i++) {

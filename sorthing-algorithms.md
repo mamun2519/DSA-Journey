@@ -72,7 +72,7 @@ void selectionSort(int arr[], int size) {
 
       - **Best:** O(n) (when the array is already sorted).
 
-Average/Worst: O(n²).
+      - **Average/Worst:** O(n²).
 
 Space Complexity: O(1) (in-place sorting).
 

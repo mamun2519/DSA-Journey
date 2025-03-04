@@ -38,7 +38,7 @@ void bubbleSort(int arr[], int size) {
 
 - **How it works:** Repeatedly selects the smallest (or largest) element from the unsorted portion and swaps it with the first unsorted element.
 
-Time Complexity:
+- **Time Complexity:**
 
 Best/Average/Worst: O(n²).
 

@@ -70,7 +70,7 @@ void selectionSort(int arr[], int size) {
 
 - **Time Complexity:**
 
-Best: O(n) (when the array is already sorted).
+      - **Best:** O(n) (when the array is already sorted).
 
 Average/Worst: O(n²).
 

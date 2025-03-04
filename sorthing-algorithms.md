@@ -78,4 +78,4 @@ void selectionSort(int arr[], int size) {
 
 - **Stable:** Yes.
 
-Use Case: Efficient for small datasets or nearly sorted arrays.
+- **Use Case:** Efficient for small datasets or nearly sorted arrays.

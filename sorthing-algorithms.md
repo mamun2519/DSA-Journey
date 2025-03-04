@@ -16,6 +16,6 @@ Below is an overview of common sorting algorithms, their time complexity, space 
 
 - **Space Complexity:** O(1) (in-place sorting).
 
-Stable: Yes.
+- **Stable:** Yes.
 
 Use Case: Simple and easy to implement, but inefficient for large datasets.

@@ -132,7 +132,7 @@ int main() {
 - **1: Single Element In sorted Array**
 
 ```cpp
-arr = [1,1,,2,3,3,4,4,88]]
+arr = [1,1,,2,3,3,4,4,88]
 ```
 
 - **Book Allocation Problem**

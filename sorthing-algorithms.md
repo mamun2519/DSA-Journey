@@ -31,3 +31,17 @@ void bubbleSort(int arr[], int size) {
     }
 }
 ```
+
+## 2. Selection Sort
+
+How it works: Repeatedly selects the smallest (or largest) element from the unsorted portion and swaps it with the first unsorted element.
+
+Time Complexity:
+
+Best/Average/Worst: O(n²).
+
+Space Complexity: O(1) (in-place sorting).
+
+Stable: No.
+
+Use Case: Simple but inefficient for large datasets.

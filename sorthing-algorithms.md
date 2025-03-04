@@ -76,6 +76,6 @@ void selectionSort(int arr[], int size) {
 
 - **Space Complexity:** O(1) (in-place sorting).
 
-Stable: Yes.
+- **Stable:** Yes.
 
 Use Case: Efficient for small datasets or nearly sorted arrays.

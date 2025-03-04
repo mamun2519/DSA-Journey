@@ -134,3 +134,5 @@ int main() {
 ```cpp
 arr = [1,1,,2,3,3,4,4,88]]
 ```
+
+- **Book Allocation Problem**

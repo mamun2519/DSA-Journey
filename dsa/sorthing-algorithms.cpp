@@ -15,6 +15,14 @@ void bubbleSort(int arr[], int size)
       }
 }
 
+void printArray(int arr[], int size)
+{
+      for (i = 0; i < size; i++)
+      {
+            cout << arr[i] << " ";
+      }
+      return << endl;
+}
 int main()
 {
       int size = 5;

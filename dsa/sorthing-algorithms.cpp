@@ -16,7 +16,7 @@ void bubbleSort(int arr[], int size)
       }
 }
 
-void selectionSort(int arr[], int size)
+/* void selectionSort(int arr[], int size)
 {
       for (int i = 0; i < size - 1; i++)
       {
@@ -31,7 +31,11 @@ void selectionSort(int arr[], int size)
             swap(arr[i], arr[smallIndex]);
       }
 }
+ */
 
+void selectionSort(int arr[], int size)
+{
+}
 void printArray(int arr[], int size)
 {
       for (int i = 0; i < size; i++)

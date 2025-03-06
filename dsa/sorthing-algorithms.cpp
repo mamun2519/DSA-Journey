@@ -28,6 +28,7 @@ void selectionSort(int arr[], int size)
                         smallIndex = j;
                   }
             }
+            swap(arr[i], arr[smallIndex]);
       }
 }
 
@@ -43,7 +44,8 @@ int main()
 {
       int size = 5;
       int arr[] = {4, 1, 5, 2, 3};
-      bubbleSort(arr, size);
+      // bubbleSort(arr, size);
+      selectionSort(arr, size);
       printArray(arr, size);
       return 0;
 }

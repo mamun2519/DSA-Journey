@@ -21,7 +21,7 @@ void printArray(int arr[], int size)
       {
             cout << arr[i] << " ";
       }
-      return << endl;
+      cout << endl;
 }
 int main()
 {

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-/* void bubbleSort(int arr[], int size)
+void bubbleSort(int arr[], int size)
 {
       for (int i = 0; i < size - 1; i++)
       {
@@ -14,9 +14,9 @@ using namespace std;
                   }
             }
       }
-} */
+}
 
-/* void selectionSort(int arr[], int size)
+void selectionSort(int arr[], int size)
 {
       for (int i = 0; i < size - 1; i++)
       {
@@ -31,7 +31,6 @@ using namespace std;
             swap(arr[i], arr[smallIndex]);
       }
 }
- */
 
 void insertionSort(int arr[], int size)
 {

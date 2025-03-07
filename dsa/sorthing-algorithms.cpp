@@ -33,7 +33,13 @@ using namespace std;
 }
  */
 
-void insertionSort() {}
+void insertionSort(int arr[], int size)
+{
+      for (i = 1; i < size; i++)
+      {
+            int key = arr[i];
+      }
+}
 
 void printArray(int arr[], int size)
 {

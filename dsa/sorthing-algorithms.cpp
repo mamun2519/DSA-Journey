@@ -37,14 +37,14 @@ void insertionSort(int arr[], int size)
 {
       for (int i = 1; i < size; i++)
       {
-            int key = arr[i];
-            int j = i - 1;
-            while (j >= 0 && arr[j] > key)
+            int curr = arr[i];
+            int prev = i - 1;
+            while (prev >= 0 && arr[j] > curr)
             {
-                  arr[j + 1] = arr[j];
-                  j--;
+                  arr[j + 1] = arr[prev];
+                  prev--;
             }
-            arr[j + 1] = key;
+            arr[prev + 1] = curr;
       }
 }
 

@@ -35,12 +35,12 @@ using namespace std;
 
 void selectionSort(int arr[], int size)
 {
-      for (int i = 0; i < size - 1; i++)
+      for (int i = 0; i < size - 1; ++)
       {
             int smallIndex = i;
             for (int j = i + 1; j < size; j++)
             {
-                  if (arr[j] < arr[smallIndex])
+                  if (arr[j] > arr[smallIndex])
                   {
                         smallIndex = j;
                   }
@@ -48,6 +48,7 @@ void selectionSort(int arr[], int size)
             swap(arr[i], arr[smallIndex]);
       }
 }
+
 void printArray(int arr[], int size)
 {
       for (int i = 0; i < size; i++)

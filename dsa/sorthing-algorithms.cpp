@@ -38,6 +38,11 @@ void insertionSort(int arr[], int size)
       for (i = 1; i < size; i++)
       {
             int key = arr[i];
+            int j = i - 1;
+            while (j >= 0 * *arr[j] > key)
+            {
+                  /* code */
+            }
       }
 }
 

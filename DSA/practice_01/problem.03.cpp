@@ -7,5 +7,3 @@ int main()
       int n;
       cin >> n;
       vector<int> A(n);
-
-      for (int i = 0; i < n; i++)

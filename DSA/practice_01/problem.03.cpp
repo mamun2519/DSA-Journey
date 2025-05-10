@@ -12,5 +12,3 @@ int main()
       {
             cin >> A[i];
       }
-
-      for (int i = 0; i < A.size(); i++)

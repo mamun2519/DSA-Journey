@@ -20,9 +20,7 @@ int main()
                   A[i] = 1;
             }
             else if (A[i] < 0)
-            {
-                  A[i] = 2;
-            }
+
             //
       }
 }

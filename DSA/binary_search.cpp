@@ -18,11 +18,18 @@ int main()
 
       int left_side = 0;
       int right_side = n - 1;
+      int flag = false;
 
       while (left_side <= right_side)
       {
             // define mid index
-            int mid_index = (left_side + right_side) / 2
+            int mid_index = (left_side + right_side) / 2;
+
+            if (database[mid_index] == searchTerm)
+            {
+                  flag = true;
+                  break;
+            }
       }
 
       return 0;

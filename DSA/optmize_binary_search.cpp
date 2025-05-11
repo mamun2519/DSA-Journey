@@ -12,5 +12,9 @@ int main()
             cin >> array[i];
       }
 
+      int flag = false;
+      int left_side = 0;
+      int right_side = n - 1;
+
       return 0;
 }

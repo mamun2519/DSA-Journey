@@ -21,7 +21,11 @@ int main()
       {
             int mid_index = (left_side + right_side) / 2;
 
-            if (array[mid_index] == = sear)
+            if (array[mid_index] == searchTerm)
+            {
+                  flag = true;
+                  break;
+            }
       }
 
       return 0;

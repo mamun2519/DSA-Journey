@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void binarySearch(int array[], int searchTerm, int n)
+{
+
+      int flag = false;
+      left_side = 0;
+}
+
 int main()
 {
 

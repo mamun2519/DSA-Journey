@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int binarySearch(int array[], int searchTerm, int n)
+bool binarySearch(int array[], int searchTerm, int n)
 {
 
-      int duplicate = 0;
+      int flag = false;
       int left_side = 0;
       int right_side = n - 1;
 
@@ -14,9 +14,17 @@ int binarySearch(int array[], int searchTerm, int n)
 
             if (array[mid_index] == searchTerm)
             {
-                  duplicate = duplicate + 1;
+
+                  if (array[mid_index - 1] == searchTerm || array[mid_index + 1] == searchTerm)
+                  {
+                        return true;
+                  }
+                  else
+                  {
+                        return false;
+                  }
             }
-            if (searchTerm > array[mid_index])
+            else if (searchTerm > array[mid_index])
             {
                   left_side = mid_index + 1;
             }
@@ -26,7 +34,7 @@ int binarySearch(int array[], int searchTerm, int n)
             }
       }
 
-      return duplicate;
+      return flag;
 };
 
 int main()
@@ -41,12 +49,12 @@ int main()
       }
       int searchTerm;
       cin >> searchTerm;
-      int duplicate = binarySearch(array, searchTerm, n);
-
-      if (duplicate == 1)
-            cout << false;
+      int isDuplicate = binarySearch(array, searchTerm, n);
+      cout << isDuplicate << endl;
+      if (isDuplicate)
+            cout << "true";
       else
-            cout << true;
+            cout << "false";
 
       return 0;
 }

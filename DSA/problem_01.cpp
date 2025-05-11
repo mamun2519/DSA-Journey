@@ -62,6 +62,8 @@ using namespace std;
 // find duplicate value using bainary search
 bool findIsDuplicate(int array[], int n, int searchTerm)
 {
+      int left_side = 0;
+      int right_side = n - 1;
 }
 int main()
 {

@@ -7,6 +7,17 @@ void binarySearch(int array[], int searchTerm, int n)
       int flag = false;
       int left_side = 0;
       int right_side = n - 1;
+
+      while (left_side <= right_side)
+      {
+            int mid_index = (left_side + right_side) / 2;
+
+            if (array[mid_index] == searchTerm)
+            {
+                  flag = true;
+                  break;
+            }
+      }
 }
 
 int main()

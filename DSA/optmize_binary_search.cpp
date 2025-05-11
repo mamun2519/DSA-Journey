@@ -26,7 +26,22 @@ int main()
                   flag = true;
                   break;
             }
+
+            if (searchTerm > array[mid_index])
+            {
+                  left_side = mid_index + 1;
+            }
+            else
+            {
+                  right_side = mid_index - 1;
+            }
       }
+
+      if (flag == true)
+            cout << "SearchTerm Find Successfully!";
+      else
+            cout << "Opps! SearchTerm Does not find!";
+      ;
 
       return 0;
 }

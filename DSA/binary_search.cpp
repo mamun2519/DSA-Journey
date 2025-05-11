@@ -34,7 +34,16 @@ int main()
             {
                   left_side = mid_index + 1;
             }
+            else
+            {
+                  right_side = mid_index - 1;
+            }
       }
+
+      if (flag == true)
+            cout << "Yes searchTerm is find";
+      else
+            cout << "searchTerm does not find";
 
       return 0;
 }

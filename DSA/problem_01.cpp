@@ -60,7 +60,9 @@ using namespace std;
 // }
 
 // find duplicate value using bainary search
-
+bool findIsDuplicate()
+{
+}
 int main()
 {
       int n;
@@ -71,5 +73,9 @@ int main()
             cin >> array[i];
       }
 
-      bool isDuplicate = findIsDuplicate(array, n, searchTerm) return 0;
+      int searchTerm;
+      cin >> searchTerm;
+
+      bool isDuplicate = findIsDuplicate(array, n, searchTerm);
+      return 0;
 }

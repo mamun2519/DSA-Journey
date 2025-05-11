@@ -19,5 +19,10 @@ int main()
       int left_side = 0;
       int right_side = n - 1;
 
+      while (left_side <= right_side)
+      {
+            /* code */
+      }
+
       return 0;
 }

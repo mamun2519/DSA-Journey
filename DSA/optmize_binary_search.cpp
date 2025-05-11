@@ -27,7 +27,7 @@ bool binarySearch(int array[], int searchTerm, int n)
             }
       }
 
-      return flag
+      return flag;
 };
 
 int main()

@@ -64,6 +64,24 @@ bool findIsDuplicate(int array[], int n, int searchTerm)
 {
       int left_side = 0;
       int right_side = n - 1;
+
+      while (left_side <= right_side)
+      {
+            int middle_index = (left_side + right_side) / 2;
+
+            if (searchTerm == array[middle_index])
+            {
+            }
+
+            else if (array[middle_index] < searchTerm)
+            {
+                  left_side = middle_index + 1;
+            }
+            else
+            {
+                  right_side = middle_index - 1;
+            }
+      }
 }
 int main()
 {

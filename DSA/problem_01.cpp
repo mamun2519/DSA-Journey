@@ -70,5 +70,6 @@ int main()
       {
             cin >> array[i];
       }
-      return 0;
+
+      bool isDuplicate = findIsDuplicate(array, n, searchTerm) return 0;
 }

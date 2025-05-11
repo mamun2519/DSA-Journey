@@ -21,7 +21,8 @@ int main()
 
       while (left_side <= right_side)
       {
-            /* code */
+            // define mid index
+            int mid_index = (left_side + right_side) / 2
       }
 
       return 0;

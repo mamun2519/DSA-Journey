@@ -5,7 +5,8 @@ void binarySearch(int array[], int searchTerm, int n)
 {
 
       int flag = false;
-      left_side = 0;
+      int left_side = 0;
+      int right_side = n - 1;
 }
 
 int main()

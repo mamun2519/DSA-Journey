@@ -11,5 +11,13 @@ int main()
 
             cin >> database[i];
       }
+
+      // receive search value
+      int searchTerm;
+      cin >> searchTerm;
+
+      int left_side = 0;
+      int right_side = n - 1;
+
       return 0;
 }

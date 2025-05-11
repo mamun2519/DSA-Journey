@@ -47,6 +47,7 @@ int main()
       cin >> searchTerm;
 
       bool isDuplicate = findIsDuplicate(array, n, searchTerm);
+      cout << isDuplicate;
       if (isDuplicate)
             cout << "true";
       else

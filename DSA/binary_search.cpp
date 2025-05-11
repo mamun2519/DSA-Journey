@@ -30,6 +30,10 @@ int main()
                   flag = true;
                   break;
             }
+            if (searchTerm > database[mid_index])
+            {
+                  left_side = mid_index + 1;
+            }
       }
 
       return 0;

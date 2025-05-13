@@ -18,5 +18,6 @@ int main()
       Node b(30);
 
       a.next = &b;
+      cout << a.value << a.next->value;
       return 0;
 }

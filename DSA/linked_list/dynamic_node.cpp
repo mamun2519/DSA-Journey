@@ -10,5 +10,13 @@ public:
       Node(int value)
       {
             this->value = value;
+            this->next = NULL;
       }
+};
+
+int main()
+{
+      Node *Head = new Node(10);
+      Node *a = new Node(5);
+      return 0;
 }

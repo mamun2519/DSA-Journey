@@ -11,13 +11,4 @@ public:
             this->value = val;
             this->next = NULL;
       }
-};
-int main()
-{
-      Node a(20);
-      Node b(30);
-
-      a.next = &b;
-      cout << a.value << a.next->value;
-      return 0;
 }

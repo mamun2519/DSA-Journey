@@ -25,5 +25,13 @@ int main()
 
       cout << Head->value << " " << Head->next->value;
       //* dynamic node;
+      Node *tem = Head;
+
+      while (tem != NULL)
+      {
+            cout << tem->value;
+            tem = tem->next;
+      }
+
       return 0;
 }

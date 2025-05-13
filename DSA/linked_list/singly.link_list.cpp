@@ -14,5 +14,7 @@ public:
 };
 int main()
 {
+      Node a(20);
+      Node b(30);
       return 0;
 }

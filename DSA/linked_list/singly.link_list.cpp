@@ -16,5 +16,7 @@ int main()
 {
       Node a(20);
       Node b(30);
+
+      a.next = &b;
       return 0;
 }

@@ -24,5 +24,6 @@ int main()
       a->next = b;
 
       cout << Head->value << " " << Head->next->value;
+      //* dynamic node;
       return 0;
 }

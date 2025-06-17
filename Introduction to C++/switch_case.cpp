@@ -10,7 +10,7 @@ int main()
             cout << "x is 1" << endl;
             break;
       case 2:
-            /* code */
+            /* code---- */
             cout << "x is 2" << endl;
             break;
       case 10:

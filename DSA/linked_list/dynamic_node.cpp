@@ -23,13 +23,13 @@ int main()
       Head->next = a;
       a->next = b;
 
-      cout << Head->value << " " << Head->next->value;
+      cout << Head->value << " " << Head->next->value << endl;
       //* dynamic node;
       Node *tem = Head;
 
       while (tem != NULL)
       {
-            cout << tem->value;
+            cout << tem->value << " ";
             tem = tem->next;
       }
 

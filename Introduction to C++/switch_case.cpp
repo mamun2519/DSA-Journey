@@ -6,7 +6,7 @@ int main()
       switch (x)
       {
       case 1:
-            /* code */
+            /* code -------*/
             cout << "x is 1" << endl;
             break;
       case 2:

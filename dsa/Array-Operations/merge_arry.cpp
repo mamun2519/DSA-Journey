@@ -25,5 +25,12 @@ int main()
             k++;
       }
 
+      // iterate m array and copy elements to o
+      for (int j = 0; j < m; j++)
+      {
+            o[k] = arr2[j];
+            k++;
+      }
+
       return 0;
 }

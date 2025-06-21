@@ -17,4 +17,13 @@ int main()
 
       int o[n + m];
       int k = 0;
+
+      // iterate n array and copy elements to o
+      for (int i = 0; i < n; i++)
+      {
+            o[k] = arr[i];
+            k++;
+      }
+
+      return 0;
 }

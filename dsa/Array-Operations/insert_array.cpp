@@ -12,7 +12,11 @@ int main()
       int index, value;
       cin >> index >> value;
       // shift elements to the right
-
+      for (int i = n; i > index; i--)
+      {
+            arr[i + 1] = arr[i];
+      }
+      arr[index] = value; // insert the value at the index
       // pint the array
       for (int i = 0; i < n; i++)
       {

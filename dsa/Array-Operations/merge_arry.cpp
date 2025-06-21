@@ -14,4 +14,7 @@ int main()
       int arr2[m];
       for (int i = 0; i < m; i++)
             cin >> arr2[i];
+
+      int o[n + m];
+      int k = 0;
 }

@@ -16,5 +16,27 @@ int main()
             cin >> b[i];
 
       int c[n + m];
+
+      int k = 0;
+
+      // merge two sorted arrays
+      int i = 0, j = 0;
+
+      // a array is sorted
+      while (i < n && j < m)
+      {
+            if (a[i] < b[j])
+            {
+                  c[k] = a[i];
+                  k++;
+                  i++;
+            }
+            else
+            {
+                  c[k] = b[j];
+                  k++;
+                  j++;
+            }
+      }
       return 0;
 }

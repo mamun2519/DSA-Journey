@@ -32,5 +32,11 @@ int main()
             k++;
       }
 
+      // print the merged array
+      for (int i = 0; i < n + m; i++)
+      {
+            cout << o[i] << " ";
+      }
+
       return 0;
 }

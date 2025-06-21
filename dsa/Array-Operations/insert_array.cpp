@@ -13,7 +13,7 @@ int main()
       int index, value;
       cin >> index >> value;
       // shift elements to the right
-      for (int i = n; i > index; i--)
+      for (int i = n - 1; i >= index; i--)
       {
             arr[i + 1] = arr[i];
       }

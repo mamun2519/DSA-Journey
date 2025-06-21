@@ -18,4 +18,8 @@ int main()
             left++;
             right--;
       }
+
+      // print the reversed array
+      for (int i = 0; i < n; i++)
+            cout << arr[i] << " ";
 }

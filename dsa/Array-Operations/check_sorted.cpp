@@ -20,5 +20,10 @@ int main()
                   break;
             }
       }
+
+      if (isSorted)
+            cout << "Array is sorted" << endl;
+      else
+            cout << "Array is not sorted" << endl;
       return 0;
 }

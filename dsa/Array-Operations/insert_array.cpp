@@ -11,6 +11,7 @@ int main()
       // recive index and value to be inserted
       int index, value;
       cin >> index >> value;
+      // shift elements to the right
 
       // pint the array
       for (int i = 0; i < n; i++)

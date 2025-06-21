@@ -18,5 +18,11 @@ int main()
       {
             arr[i - 1] = arr[i];
       }
+
+      // pint the array after deletion
+      for (int i = 0; i < n - 1; i++)
+      {
+            cout << arr[i] << " ";
+      }
       return 0;
 }

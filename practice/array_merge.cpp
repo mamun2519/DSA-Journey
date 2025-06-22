@@ -15,7 +15,7 @@ int main()
       cin >> m;
       int b[m];
       for (int i = 0; i < m; i++)
-            cin >> a[i];
+            cin >> b[i];
 
       // merge two array in the c array
       int c[n + m];

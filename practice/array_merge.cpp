@@ -20,5 +20,11 @@ int main()
       // merge two array in the c array
       int c[n + m];
       int k = 0;
+
+      for (int i = 0; i < n; i++)
+      {
+            c[i] = a[i];
+            k++;
+      }
       return 0;
 }

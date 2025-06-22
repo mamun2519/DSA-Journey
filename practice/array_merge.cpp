@@ -23,18 +23,18 @@ int main()
 
       for (int i = 0; i < n; i++)
       {
-            c[i] = a[i];
+            c[k] = a[i];
             k++;
       }
 
       for (int j = 0; j < m; j++)
       {
-            c[j] = b[j];
+            c[k] = b[j];
             k++;
       }
 
       // pint
-      for (int i = 0; i < n; i++)
+      for (int i = 0; i < n + m; i++)
       {
             cout << c[i] << " ";
       }

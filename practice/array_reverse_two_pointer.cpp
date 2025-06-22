@@ -12,11 +12,16 @@ int main()
       int right = n - 1;
       while (left < right)
       {
-            swap(arr[left], arr[right])
-                right--;
+            swap(arr[left], arr[right]);
+            right--;
             left++;
             /* code */
       }
 
+      // pint
+      for (int i = 0; i < n - 1; i++)
+      {
+            cout << arr[i] << " ";
+      }
       return 0;
 }

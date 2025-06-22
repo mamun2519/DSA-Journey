@@ -3,5 +3,22 @@ using namespace std;
 
 int main()
 {
+      // first A array
+      int n;
+      cin >> n;
+      int a[n];
+      for (int i = 0; i < n; i++)
+            cin >> a[i];
+
+      // 2nd B Array
+      int m;
+      cin >> m;
+      int b[m];
+      for (int i = 0; i < m; i++)
+            cin >> b[i];
+
+      // merge two array in the c array
+      int c[n + m];
+      int k = 0;
       return 0;
 }

@@ -32,5 +32,11 @@ int main()
             c[j] = b[j];
             k++;
       }
+
+      // pint
+      for (int i = 0; i < n; i++)
+      {
+            cout << arr[i] << " ";
+      }
       return 0;
 }

@@ -15,6 +15,8 @@ int main()
       for (int i = 0; i < n / 2; i++)
       {
             cout << "N =>" << n << endl;
+            cout << "I =>" << i << endl;
+            cout << "Total ==>" << n - i - 1 << endl;
             swap(arr[i], arr[n - i - 1]);
       }
 

@@ -19,7 +19,7 @@ int main()
       }
       arr[index] = value; // insert the value at the index
       // pint the array
-      for (int i = 0; i < n; i++)
+      for (int i = 0; i <= n; i++)
       {
             cout << arr[i] << " ";
       }

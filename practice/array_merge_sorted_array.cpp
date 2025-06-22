@@ -20,5 +20,22 @@ int main()
       // merge two array in the c array
       int c[n + m];
       int k = 0;
+      int i = 0, j = 0;
+
+      while (i < n && j < m)
+      {
+            if (a[i] < b[j])
+            {
+                  /* code */
+                  c[k] = a[i];
+                  k++;
+                  i++;
+            }
+            else
+            {
+                  c[k] = b[j];
+            }
+      }
+
       return 0;
 }

@@ -9,7 +9,7 @@ int main()
       for (int i = 0; i < n; i++)
             cin >> a[i];
       // check the sorted array
-      bool isSorted = false;
+      bool isSorted = true;
       for (int i = 0; i < n; i++)
       {
 

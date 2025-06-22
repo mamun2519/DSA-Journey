@@ -9,5 +9,14 @@ int main()
       int a[n];
       for (int i = 0; i < n; i++)
             cin >> a[i];
+
+      // 2nd B Array
+      int m;
+      cin >> m;
+      int b[m];
+      for (int i = 0; i < m; i++)
+            cin >> a[i];
+
+      // merge two array in the c array
       return 0;
 }

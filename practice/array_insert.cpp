@@ -13,13 +13,15 @@ int main()
       // take the target a value and index
       int targetIndex;
       int value;
-      cin >> targetIndex >> value;
+      cin >> targetIndex;
+      cin >> value;
 
       // assign the target value
-      for (int i = n - 1; n >= targetIndex; i--)
+      for (int i = n - 1; i >= targetIndex; i--)
       {
             arr[i + 1] = arr[i];
       }
+      arr[targetIndex] = value;
 
       for (int i = 0; i < n; i++)
       {

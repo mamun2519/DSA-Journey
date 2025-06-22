@@ -26,5 +26,11 @@ int main()
             c[i] = a[i];
             k++;
       }
+
+      for (int j = 0; j < m; j++)
+      {
+            c[j] = b[j];
+            k++;
+      }
       return 0;
 }

@@ -10,5 +10,13 @@ int main()
             cin >> arr[i];
       int left = 0;
       int right = n - 1;
+      while (left < right)
+      {
+            swap(arr[left], arr[right])
+                right--;
+            left++;
+            /* code */
+      }
+
       return 0;
 }

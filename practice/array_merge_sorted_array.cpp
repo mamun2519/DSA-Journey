@@ -34,8 +34,17 @@ int main()
             else
             {
                   c[k] = b[j];
+                  k++;
+                  j++;
             }
       }
+
+      // print the merged array
+      for (int i = 0; i < n + m; i++)
+      {
+            cout << c[i] << " ";
+      }
+      return 0;
 
       return 0;
 }

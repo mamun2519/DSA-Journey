@@ -38,6 +38,21 @@ int main()
                   j++;
             }
       }
+      while (i < n)
+      {
+            c[k] = a[i];
+            k++;
+            i++;
+            /* code */
+      }
+
+      while (j < m)
+      {
+            c[k] = b[j];
+            k++;
+            j++;
+            /* code */
+      }
 
       // print the merged array
       for (int i = 0; i < n + m; i++)

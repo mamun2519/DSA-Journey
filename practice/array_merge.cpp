@@ -18,5 +18,7 @@ int main()
             cin >> a[i];
 
       // merge two array in the c array
+      int c[n + m];
+      int k = 0;
       return 0;
 }

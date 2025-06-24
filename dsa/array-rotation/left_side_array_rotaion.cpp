@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// int main()
+/*
+int main()
 {
 
       int n;
@@ -23,6 +24,22 @@ using namespace std;
       for (int i = 0; i < n; i++)
       {
             cout << arr[i] << " ";
+      }
+      return 0;
+} */
+
+int main()
+{
+      int n;
+      cin >> n;
+      int arr[n];
+      for (int i = 0; i < n; i++)
+            cin >> arr[i];
+
+      int value = arr[0];
+      for (int i = 0; i < n - 1; i++)
+      {
+            arr[i] = [i + 1];
       }
       return 0;
 }

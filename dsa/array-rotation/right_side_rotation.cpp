@@ -12,7 +12,7 @@ int main()
 
       // right side one time rotated
       int lastIndex = arr[n - 1];
-      cout << "last index" << arr[n - 1];
+      // cout << "last index" << arr[n - 1];
 
       for (int i = n - 1; i > 0; i--)
       {

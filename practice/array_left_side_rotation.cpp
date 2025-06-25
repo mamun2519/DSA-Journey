@@ -11,9 +11,10 @@ int main()
             cin >> a[i];
 
       int firstIndex = a[0];
-      for (int i = 0; i <= n; i++)
+      for (int i = 0; i < n - 1; i++)
       {
-            cout << a[i] << " ";
+            a[i] = a[i + 1];
       }
+
       return 0;
 }

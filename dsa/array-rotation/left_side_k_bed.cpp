@@ -13,5 +13,15 @@ int main()
       cin >> k;
       // define a new array
       int res[n];
+
+      for (int i = 0; i < n; i++)
+      {
+            int index = (i + n - k) % n;
+            res[index] = arr[i];
+      }
+
+      for (int i = 0; i < n; i++)
+            cout << res[i] << " ";
+
       return 0;
 }

@@ -15,10 +15,10 @@ int main()
       k = k % n;
 
       int res[n];
-
       for (int i = 0; i < n; i++)
       {
-            int index = (i + n - k) % n;
+
+            int index = (i + k) % n;
             res[index] = a[i];
       }
 

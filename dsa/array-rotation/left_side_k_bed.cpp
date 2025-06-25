@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// using mod method
 int main()
 {
       int n;

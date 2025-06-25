@@ -16,7 +16,11 @@ int main()
       for (int i = 0; i < n; i++)
       {
 
-            int index
+            int index = (i + k) % n;
+            res[index] = arr[i];
       }
+
+      for (int i = 0; i < n; i++)
+            cout << res[i] << " ";
       return 0;
 }

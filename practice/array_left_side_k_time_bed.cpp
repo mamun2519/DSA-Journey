@@ -17,6 +17,12 @@ int main()
       int res[n];
 
       for (int i = 0; i < n; i++)
+      {
+            int index = (i + n - k) % n;
+            res[index] = a[i];
+      }
+
+      for (int i = 0; i < n; i++)
             cout << a[i] << " ";
 
       return 0;

@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-// using mod method
+
 int main()
 {
+
       int n;
       cin >> n;
       int arr[n];
@@ -10,19 +11,12 @@ int main()
             cin >> arr[i];
 
       int k;
-      cin >> k;
-      k = k % n;
-      // define a new array
+      cin >> n;
       int res[n];
-
       for (int i = 0; i < n; i++)
       {
-            int index = (i + n - k) % n;
-            res[index] = arr[i];
+
+            int index
       }
-
-      for (int i = 0; i < n; i++)
-            cout << res[i] << " ";
-
       return 0;
 }

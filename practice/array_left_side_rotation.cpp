@@ -10,6 +10,11 @@ int main()
       for (int i = 0; i < n; i++)
             cin >> a[i];
 
-      int firstIndex = arr[0];
+      int firstIndex = a[0];
+
+      for (int i = 0; i < n; i++)
+      {
+            a[i - 1] = a[i];
+      }
       return 0;
 }

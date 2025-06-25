@@ -15,6 +15,7 @@ int main()
       {
             a[i] = a[i + 1];
       }
+      a[n - 1] = firstIndex;
 
       return 0;
 }

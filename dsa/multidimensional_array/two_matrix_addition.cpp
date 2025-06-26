@@ -17,5 +17,16 @@ int main()
                   Sum[i][j] = A[i][j] + B[i][j];
             }
       }
+
+      // pint
+      for (int i = 0; i < r; i++)
+      {
+            for (int j = 0; j < j; j++)
+            {
+                  cout << Sum[i][j] << " ";
+            }
+            cout << endl;
+      }
+
       return 0;
 }

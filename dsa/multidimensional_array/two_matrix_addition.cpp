@@ -8,6 +8,13 @@ int main()
 
       int A[r][c] = {{2, 5}, {5, 6}};
       int B[r][c] = {{3, 5}, {2, 9}};
+      int Sum[r][c];
 
+      for (int i = 0; i < r; i++)
+      {
+            for (int j = 0; j < c; j++)
+            {
+            }
+      }
       return 0;
 }

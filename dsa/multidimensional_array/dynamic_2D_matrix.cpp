@@ -16,5 +16,14 @@ int main()
             matrix[i] = new int[cols];
       }
 
+      // take the input
+      for (int i = 0; i < rows; i++)
+      {
+            for (int j = 0; j < cols; j++)
+            {
+                  cin >> matrix[i][j];
+            }
+      }
+
       return 0;
 }

@@ -22,5 +22,9 @@ int main()
             cout << student[i] << " ";
       }
 
+      // delete the memory
+      delete prt;
+      delete[] student;
+
       return 0;
 }

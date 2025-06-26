@@ -14,6 +14,7 @@ int main()
       {
             for (int j = 0; j < c; j++)
             {
+                  Sum[i][j] = A[i][j] + B[i][j];
             }
       }
       return 0;

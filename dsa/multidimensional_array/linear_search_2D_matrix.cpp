@@ -10,6 +10,14 @@ int main()
       {
             for (int j = 0; j < 4; j++)
             {
+                  if (matrix[i][j] == target)
+                  {
+                        cout << "searching value is find";
+                  }
+                  else
+                  {
+                        cout << "searching value does not find";
+                  }
             }
       }
       return 0;

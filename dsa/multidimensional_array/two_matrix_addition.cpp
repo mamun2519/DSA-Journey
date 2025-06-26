@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-      int r, c;
-      cin >> r >> c;
+      int r = 2, c = 2;
+      // cin >> r >> c;
 
-      int A[r][c] = {{2, 5}, {5, 6}};
-      int B[r][c] = {{3, 5}, {2, 9}};
-      int Sum[r][c];
+      int A[2][2] = {{2, 5}, {5, 6}};
+      int B[2][2] = {{3, 5}, {2, 9}};
+      int Sum[2][2];
 
       for (int i = 0; i < r; i++)
       {
@@ -19,13 +19,13 @@ int main()
       }
 
       // pint
-      for (int i = 0; i < r; i++)
+      for (int i = 0; i < 2; i++)
       {
-            for (int j = 0; j < j; j++)
+            for (int j = 0; j < 2; j++)
             {
                   cout << Sum[i][j] << " ";
             }
-            cout << endl;
+            // cout << endl;
       }
 
       return 0;

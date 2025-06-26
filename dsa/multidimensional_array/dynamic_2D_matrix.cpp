@@ -5,7 +5,7 @@ int main()
 {
       int rows, cols;
       cout << "Enter rows and columns";
-      cin >> rows, cols;
+      cin >> rows >> cols;
 
       // allocate rows (step 01)
       int **matrix = new int *[rows];

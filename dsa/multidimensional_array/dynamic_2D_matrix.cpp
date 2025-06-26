@@ -34,5 +34,10 @@ int main()
             }
       }
 
+      // Step 5: Free memory
+      //     for (int i = 0; i < rows; i++)
+      //         delete[] matrix[i];
+      //     delete[] matrix;
+
       return 0;
 }

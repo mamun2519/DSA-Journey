@@ -30,6 +30,7 @@ int main()
       {
             for (int j = 0; j < cols; j++)
             {
+                  cout << matrix[i][j] << "";
             }
       }
 

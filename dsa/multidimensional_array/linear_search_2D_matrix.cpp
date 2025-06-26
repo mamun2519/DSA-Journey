@@ -12,11 +12,13 @@ int main()
             {
                   if (matrix[i][j] == target)
                   {
-                        cout << "searching value is find";
+                        cout << "searching value is find" << endl;
+                        break;
                   }
                   else
                   {
-                        cout << "searching value does not find";
+                        cout << "searching value does not find" << endl;
+                        break;
                   }
             }
       }

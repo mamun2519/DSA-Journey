@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
       int rows, cols;
-      cout << "Enter rows and columns";
+      cout << "Enter rows and columns" << endl;
       cin >> rows >> cols;
 
       // allocate rows (step 01)

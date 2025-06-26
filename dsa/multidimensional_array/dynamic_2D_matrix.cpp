@@ -10,9 +10,10 @@ int main()
       // allocate rows (step 01)
       int **matrix = new int *[rows];
 
-      // allocate columns in each row
+      // allocate columns in each row(step 02)
       for (int i = 0; i < rows; i++)
       {
+            matrix[i] = new int[cols];
       }
 
       return 0;

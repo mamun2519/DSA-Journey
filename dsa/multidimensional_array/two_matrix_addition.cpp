@@ -7,6 +7,7 @@ int main()
       cin >> r >> c;
 
       int A[r][c] = {{2, 5}, {5, 6}};
+      int B[r][c] = {{3, 5}, {2, 9}};
 
       return 0;
 }

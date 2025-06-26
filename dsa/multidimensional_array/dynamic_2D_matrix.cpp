@@ -30,8 +30,9 @@ int main()
       {
             for (int j = 0; j < cols; j++)
             {
-                  cout << matrix[i][j] << "";
+                  cout << matrix[i][j] << " ";
             }
+            cout << endl;
       }
 
       // Step 5: Free memory

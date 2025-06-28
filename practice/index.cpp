@@ -14,9 +14,11 @@ int main()
       int index, value;
       cin >> index >> value;
 
-      for (int i = index + 1; i < n - 1; i++)
+      for (int i = n - 1; i >= index; i--)
       {
+            arr[i + 1] = arr[i];
       }
+      arr[index] = value;
 
       return 0;
 }

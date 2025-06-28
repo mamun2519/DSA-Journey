@@ -11,8 +11,10 @@ int main()
       {
             cin >> arr[i];
       }
-      int index, value;
-      cin >> index, value;
+      int index;
+      int value;
+      cin >> index;
+      cin >> value;
 
       for (int i = n - 1; i >= index; i--)
       {

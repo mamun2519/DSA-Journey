@@ -16,9 +16,10 @@ int main()
 
       for (int i = n - 1; i >= index; i--)
       {
-            arr[i] = arr[i + 1];
+            arr[i + 1] = arr[i];
       }
-      for (int i = 0; i < n - 1; i++)
+      arr[index] = value;
+      for (int i = 0; i < n; i++)
       {
             cout << arr[i] << " ";
       }

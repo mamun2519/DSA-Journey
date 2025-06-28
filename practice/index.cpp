@@ -14,5 +14,9 @@ int main()
       int index, value;
       cin >> index >> value;
 
+      for (int i = index + 1; i < n - 1; i++)
+      {
+      }
+
       return 0;
 }

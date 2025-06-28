@@ -11,14 +11,8 @@ int main()
       {
             cin >> arr[i];
       }
-      int index, value;
-      cin >> index >> value;
-
-      for (int i = n - 1; i >= index; i--)
-      {
-            arr[i + 1] = arr[i];
-      }
-      arr[index] = value;
+      int index;
+      cin >> index;
 
       for (int i = 0; i < n; i++)
       {

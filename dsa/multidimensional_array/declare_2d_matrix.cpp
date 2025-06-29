@@ -4,23 +4,23 @@ using namespace std;
 
 int main()
 {
-      int n, m;
-      cin >> n, m;
-      int arr[n][m];
+      int row, cols;
+      cin >> row >> cols;
+      int arr[row][cols];
 
       // take the input
-      for (int i = 0; i < n; i++)
+      for (int i = 0; i < row; i++)
       {
-            for (int j = 0; j < m; m++)
+            for (int j = 0; j < cols; m++)
             {
                   cin >> arr[i][j];
             }
       }
 
       // pint the matrix
-      for (int i = 0; i < n; i++)
+      for (int i = 0; i < row; i++)
       {
-            for (int j = 0; j < m; j++)
+            for (int j = 0; j < cols; j++)
             {
                   cout << arr[i][j] << " ";
             }

@@ -1,3 +1,0 @@
-searching value is find
-searching value does not find
-searching value does not find

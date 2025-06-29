@@ -18,7 +18,7 @@ void main()
             {
                   if (i == j)
                   {
-                        cout << arr[ignore]
+                        cout << arr[i][j];
                   }
             }
       }

@@ -20,10 +20,12 @@ int main()
                   if (i == j)
                   {
                         cout << arr[i][j] << " ";
-                        sum = sum + arr[i][j]
+                        sum = sum + arr[i][j];
                   }
             }
       }
+      cout << endl;
+      cout << "Total summation is" << sum;
 
       return 0;
 }

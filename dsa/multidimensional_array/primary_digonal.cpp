@@ -25,7 +25,7 @@ int main()
             }
       }
       cout << endl;
-      cout << "Total summation is" << sum;
+      cout << "Total summation is" << " " << sum;
 
       return 0;
 }

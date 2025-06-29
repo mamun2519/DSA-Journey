@@ -14,5 +14,12 @@ void main()
 
       for (int i = 0; i < row; i++)
       {
+            for (int j = 0; j < cols; j++)
+            {
+                  if (i == j)
+                  {
+                        cout << arr[ignore]
+                  }
+            }
       }
 }

@@ -18,7 +18,7 @@ int main()
 
                   if (i + j == row - 1)
                   {
-                        cout << arr[i][j];
+                        cout << arr[i][j] << " ";
                   }
             }
       }

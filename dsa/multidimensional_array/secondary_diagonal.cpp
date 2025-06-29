@@ -13,7 +13,14 @@ int main()
 
       for (int i = 0; i < row; i++)
       {
-            for (int j = ; j < cols; j++)
+            for (int j = 0; j < cols; j++)
+            {
+
+                  if (i + j == row - 1)
+                  {
+                        cout << arr[i][j];
+                  }
+            }
       }
       return 0;
 }

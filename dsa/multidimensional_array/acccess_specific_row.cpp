@@ -16,6 +16,9 @@ int main()
       cin >> index;
 
       // find the specific rows
-      for (int i = 0)
-            return 0;
+      for (int i = 0; i < cols; i++)
+      {
+            cout << arr[index][i] << " ";
+      }
+      return 0;
 }

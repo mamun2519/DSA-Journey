@@ -13,6 +13,7 @@ int main()
       {
             for (int j = 0; j < m; m++)
             {
+                  cin >> arr[i][j];
             }
       }
       return 0;

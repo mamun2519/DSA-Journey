@@ -12,13 +12,15 @@ int main()
 
       // calculate primary daigonal
 
+      int sum = 0;
       for (int i = 0; i < row; i++)
       {
             for (int j = 0; j < cols; j++)
             {
                   if (i == j)
                   {
-                        cout << arr[i][j];
+                        cout << arr[i][j] << " ";
+                        sum = sum + arr[i][j]
                   }
             }
       }

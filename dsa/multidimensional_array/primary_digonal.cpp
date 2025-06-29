@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void main()
+int main()
 {
       int row, cols;
       cin >> row >> cols;
@@ -22,4 +22,6 @@ void main()
                   }
             }
       }
+
+      return 0;
 }

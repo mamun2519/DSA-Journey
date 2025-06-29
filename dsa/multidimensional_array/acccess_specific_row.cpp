@@ -10,5 +10,12 @@ int main()
       for (int i = 0; i < row; i++)
             for (int j = 0; j < cols; j++)
                   cin >> arr[i][j];
-      return 0;
+
+      // take the index
+      int index;
+      cin >> index;
+
+      // find the specific rows
+      for (int i = 0)
+            return 0;
 }

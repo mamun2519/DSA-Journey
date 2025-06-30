@@ -29,9 +29,10 @@ int main()
       {
             for (int j = 0; j < p; j++)
             {
+                  c[i][j] = 0;
                   for (int k = 0; k < n; k++)
                   {
-                        c[i][k] += a[i][k] * b[k][j];
+                        c[i][j] += a[i][k] * b[k][j];
                   }
             }
       }
@@ -40,9 +41,9 @@ int main()
 
       for (int i = 0; i < m; ++i)
       {
-            for (int j = 0; j < p; ++j)
+            for (int j = 0; j < p; j++)
             {
-                  cout << C[i][j] << " ";
+                  cout << c[i][j] << " ";
             }
             cout << endl;
       }

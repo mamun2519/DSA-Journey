@@ -15,7 +15,7 @@ int main()
       }
       cin >> n >> p;
       int b[n][p];
-      for (int i = 0; i < m; i++)
+      for (int i = 0; i < n; i++)
       {
             for (int j = 0; j < n; j++)
             {

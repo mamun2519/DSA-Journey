@@ -30,6 +30,9 @@ int main()
             for (int j = 0; j < p; j++)
             {
                   for (int k = 0; k < n; k++)
+                  {
+                        c[i][k] += a[i][k] * b[k][j];
+                  }
             }
       }
       return 0;

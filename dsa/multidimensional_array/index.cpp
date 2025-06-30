@@ -11,5 +11,6 @@ int main()
       {
             sum += a[i];
       }
+      cout << sum << endl;
       return 0;
 }

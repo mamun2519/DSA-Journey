@@ -12,5 +12,24 @@ int main()
                   cin >> a[i][j];
             }
       }
+      int target;
+      cin >> target;
+      // searching
+      for (int i = 0; i < row; i++)
+      {
+            for (int j = 0; j < cols; j++)
+            {
+                  if (a[row][cols] == target)
+                  {
+                        cout << "will not take number";
+                  }
+                  else
+                  {
+                        cout << "will take number
+                                ";
+                  }
+            }
+      }
+
       return 0;
 }

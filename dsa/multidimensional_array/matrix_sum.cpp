@@ -21,5 +21,16 @@ int main()
                   cin >> b[i][j];
             }
       }
+      // calculate matrix sumation
+
+      int c[row][cols];
+      for (int i = 0; i < row; i++)
+      {
+            for (int j = 0; j < cols; j++)
+            {
+                  c[i][j] = a[i][j] + b[i][j];
+            }
+      }
+
       return 0;
 }

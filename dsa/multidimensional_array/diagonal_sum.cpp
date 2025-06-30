@@ -13,5 +13,7 @@ int main()
                   cin >> a[i][j];
             }
       }
+      int primary = 0;
+
       return 0;
 }

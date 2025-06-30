@@ -25,8 +25,13 @@ int main()
                         found = true;
                         break;
                   }
-                        }
+            }
       }
+
+      if (found)
+            cout << "will not take number" << endl;
+      else
+            cout << "will take number" << endl;
 
       return 0;
 }

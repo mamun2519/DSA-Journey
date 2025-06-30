@@ -6,11 +6,32 @@ int main()
       int n;
       cin >> n;
       int a[n];
-      int sum = 0;
+
       for (int i = 0; i < n; i++)
       {
-            sum += a[i];
+            cin >> a[i];
       }
-      cout << sum << endl;
+
+      int target;
+      cin >> target;
+      bool result = false;
+
+      for (int i = 0; i < n; i++)
+      {
+            if (a[i] == target)
+            {
+                  result = true;
+                  break;
+            }
+      }
+
+      if (result)
+      {
+            cout << 1;
+      }
+      else
+      {
+            cout << -1;
+      }
       return 0;
 }

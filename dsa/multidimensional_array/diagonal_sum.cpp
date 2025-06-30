@@ -30,5 +30,7 @@ int main()
             }
       }
 
+      cout << abs(primary - secondary) << endl;
+
       return 0;
 }

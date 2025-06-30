@@ -13,5 +13,13 @@ int main()
                   cin >> a[i][j];
             }
       }
+      int b[row][cols];
+      for (int i = 0; i < row; i++)
+      {
+            for (int j = 0; j < cols; j++)
+            {
+                  cin >> b[i][j];
+            }
+      }
       return 0;
 }

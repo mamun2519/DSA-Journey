@@ -40,7 +40,7 @@ int main()
             {
                   cout << c[i][j] << " ";
             }
-            cout << endl
+            cout << endl;
       }
       return 0;
 }

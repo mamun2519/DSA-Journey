@@ -14,6 +14,7 @@ int main()
       }
       int target;
       cin >> target;
+      int found = false;
       // searching
       for (int i = 0; i < row; i++)
       {
@@ -21,14 +22,10 @@ int main()
             {
                   if (a[row][cols] == target)
                   {
-                        cout << "will not take number";
+                        found = true;
+                        break;
                   }
-                  else
-                  {
-                        cout << "will take number
-                                ";
-                  }
-            }
+                        }
       }
 
       return 0;

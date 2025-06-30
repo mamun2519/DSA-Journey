@@ -32,5 +32,15 @@ int main()
             }
       }
 
+      // pint the c matrix
+
+      for (int i = 0; i < row; i++)
+      {
+            for (int j = 0; j < cols; j++)
+            {
+                  cout << c[i][j] << " ";
+            }
+            cout << endl
+      }
       return 0;
 }

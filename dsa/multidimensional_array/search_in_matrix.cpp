@@ -1,37 +1,35 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
 {
-      int row, cols;
-      cin >> row >> cols;
-      int a[row][cols];
-      for (int i = 0; i < row; i++)
+      int n, m;
+      cin >> n >> m;
+      int a[n][m];
+      for (int i = 0; i < n; i++)
       {
-            for (int j = 0; j < cols; j++)
+            for (int j = 0; j < m; j++)
             {
                   cin >> a[i][j];
             }
       }
-      int target;
-      cin >> target;
+      int x;
+      cin >> x;
       int found = false;
-      // searching
-      for (int i = 0; i < row; i++)
+      for (int i = 0; i < n; i++)
       {
-            for (int j = 0; j < cols; j++)
+            for (int j = 0; j < m; j++)
             {
-                  if (a[row][cols] == target)
+                  if (a[i][j] == x)
                   {
                         found = true;
                         break;
                   }
             }
       }
-
       if (found)
             cout << "will not take number" << endl;
       else
             cout << "will take number" << endl;
-
       return 0;
 }

@@ -13,5 +13,16 @@ int main()
                   cin >> a[i][j];
             }
       }
+      cin >> n >> p;
+      int b[n][p];
+      for (int i = 0; i < m; i++)
+      {
+            for (int j = 0; j < n; j++)
+            {
+                  cin >> b[i][j];
+            }
+      }
+
+      // multiplication
       return 0;
 }

@@ -18,7 +18,14 @@ int main()
 
       for (int i = 0; i < row; i++)
       {
-            for (int j)
+            for (int j = 0; j < cols; j++)
+            {
+
+                  if (i == j)
+                  {
+                        cout << a[i][j];
+                  }
+            }
       }
 
       return 0;

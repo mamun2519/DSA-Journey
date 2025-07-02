@@ -17,7 +17,9 @@ int main()
       }
       int index;
       cin >> index;
-      for ()
+      for (int i = 0; i < cols; i++)
+      {
+      }
 
-            return 0;
+      return 0;
 }

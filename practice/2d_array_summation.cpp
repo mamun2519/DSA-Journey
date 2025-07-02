@@ -16,14 +16,23 @@ int main()
             }
       }
 
+      int b[row][cols];
+
       for (int i = 0; i < row; i++)
       {
             for (int j = 0; j < cols; j++)
             {
-                  if (i + j == row - 1)
-                  {
-                        cout << a[i][j] << " ";
-                  }
+                  cin >> b[i][j];
+            }
+      }
+
+      int c[row][cols];
+
+      for (int i = 0; i < row; i++)
+      {
+            for (int j = 0; j < cols; j++)
+            {
+                  c[i][j] = a[i][j] + b[i][j];
             }
       }
 

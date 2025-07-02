@@ -23,7 +23,7 @@ int main()
 
                   if (i == j)
                   {
-                        cout << a[i][j];
+                        cout << a[i][j] << " ";
                   }
             }
       }

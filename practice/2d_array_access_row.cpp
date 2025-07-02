@@ -15,6 +15,9 @@ int main()
                   cin >> a[i][j];
             }
       }
+      int index;
+      cin >> index;
+      for ()
 
-      return 0;
+            return 0;
 }

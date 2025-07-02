@@ -19,6 +19,7 @@ int main()
       cin >> index;
       for (int i = 0; i < cols; i++)
       {
+            cout << a[i][index] << " ";
       }
 
       return 0;

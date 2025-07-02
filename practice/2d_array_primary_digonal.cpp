@@ -15,11 +15,10 @@ int main()
                   cin >> a[i][j];
             }
       }
-      int index;
-      cin >> index;
-      for (int i = 0; i < cols; i++)
+
+      for (int i = 0; i < row; i++)
       {
-            cout << a[index][i] << " ";
+            for (int j)
       }
 
       return 0;

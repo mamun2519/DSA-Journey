@@ -12,6 +12,7 @@ int main()
       {
             for (int j = 0; j < cols; j++)
             {
+                  cin >> a[i][j];
             }
       }
 

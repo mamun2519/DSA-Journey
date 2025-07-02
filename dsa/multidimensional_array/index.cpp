@@ -14,24 +14,17 @@ int main()
 
       int target;
       cin >> target;
-      bool result = false;
 
       for (int i = 0; i < n; i++)
       {
             if (a[i] == target)
             {
-                  result = true;
-                  break;
+                  cout << i << endl; // print the 0-indexed position
+                  return 0;          // exit after first match
             }
       }
 
-      if (result)
-      {
-            cout << 1;
-      }
-      else
-      {
-            cout << -1;
-      }
+      // If target not found
+      cout << -1 << endl;
       return 0;
 }

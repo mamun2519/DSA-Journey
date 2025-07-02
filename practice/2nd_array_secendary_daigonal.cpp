@@ -20,8 +20,7 @@ int main()
       {
             for (int j = 0; j < cols; j++)
             {
-
-                  if (i == j)
+                  if (i + j == row - 1)
                   {
                         cout << a[i][j] << " ";
                   }

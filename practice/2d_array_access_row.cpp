@@ -19,7 +19,7 @@ int main()
       cin >> index;
       for (int i = 0; i < cols; i++)
       {
-            cout << a[i][index] << " ";
+            cout << a[index][i] << " ";
       }
 
       return 0;

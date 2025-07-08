@@ -5,9 +5,9 @@ int main()
 {
       int n;
       cin >> n;
-      vector<int> v(n); // empty victor declore
+      vector<int> v; // empty victor declore
 
-      for (int i = 0; i < v.size(); i++)
+      for (int i = 0; i < n; i++)
       {
             int x;
             cin >> x;
@@ -16,9 +16,13 @@ int main()
 
       // pint the victor
 
-      for (int i = 0; i < v.size(); i++)
+      // for (int i = 0; i < v.size(); i++)
+      // {
+      //       cout << v[i];
+      // }
+      for (int x : v)
       {
-            cout << v[i];
+            cout << x;
       }
 
       return 0;

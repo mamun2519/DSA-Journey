@@ -30,6 +30,10 @@ int main()
       {
             cout << x << " ";
       }
-
+      int target;
+      cin >> target;
+      // search from the element
+      auto it = find(v.begin(), v.end(), target);
+      cout << it;
       return 0;
 }

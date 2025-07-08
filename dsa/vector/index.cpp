@@ -18,5 +18,7 @@ int main()
       {
             cout << x << " ";
       }
+      // reverse victor
+      reverse(v.begin(), v.end());
       return 0;
 }

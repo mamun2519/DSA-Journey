@@ -22,7 +22,10 @@ int main()
       // reverse(v.begin(), v.end());
 
       //  Find Maximum and Minimum
-      max_element(v.begin(), v.end());
+
+      // sort a vector in descending order
+      sort(v.begin(), v.end());
+      // max_element(v.begin(), v.end());
       for (int x : v)
       {
             cout << x << " ";

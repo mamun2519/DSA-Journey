@@ -3,7 +3,16 @@ using namespace std;
 
 int main()
 {
-      vector<int> v; // empty victor declore
-      vector<int> v(5);
+      int n;
+      cin >> n;
+      vector<int> v(n); // empty victor declore
+
+      for (int i = 0; i < v.size(); i++)
+      {
+            int x;
+            cin >> x;
+            v.push_back(x);
+      }
+
       return 0;
 }

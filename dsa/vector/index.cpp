@@ -13,9 +13,9 @@ int main()
       }
 
       // pint the victor
-      for (int i = 0; i < v.size(); i++)
+      for (int x : v)
       {
-            cout << v[i];
+            cout << x << " ";
       }
       return 0;
 }

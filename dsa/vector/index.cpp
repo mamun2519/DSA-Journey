@@ -14,11 +14,19 @@ int main()
       }
 
       // pint the victor
+      // for (int x : v)
+      // {
+      //       cout << x << " ";
+      // }
+      // reverse victor
+      // reverse(v.begin(), v.end());
+
+      //  Find Maximum and Minimum
+      max_element(v.begin(), v.end());
       for (int x : v)
       {
             cout << x << " ";
       }
-      // reverse victor
-      reverse(v.begin(), v.end());
+
       return 0;
 }

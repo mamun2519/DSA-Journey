@@ -5,7 +5,7 @@ int main()
 {
       int n;
       cin >> n;
-      vector<int> v; // empty victor declore
+      vector<int> v(n); // empty victor declore
 
       for (int i = 0; i < n; i++)
       {
@@ -22,7 +22,7 @@ int main()
       // }
       for (int x : v)
       {
-            cout << x;
+            cout << x << " ";
       }
 
       return 0;

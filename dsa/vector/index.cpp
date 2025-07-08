@@ -24,7 +24,7 @@ int main()
       //  Find Maximum and Minimum
 
       // sort a vector in descending order
-      sort(v.begin(), v.end());
+      sort(v.begin(), v.end(), greater<int>());
       // max_element(v.begin(), v.end());
       for (int x : v)
       {

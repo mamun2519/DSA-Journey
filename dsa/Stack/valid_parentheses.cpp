@@ -12,6 +12,13 @@ int main()
             {
                   st.push(c);
             }
+            else
+            {
+                  if (c == ')' && st.top() == '(')
+                  {
+                        st.pop()
+                  }
+            }
       }
       return 0;
 }

@@ -17,5 +17,7 @@ int main()
       // remove element
       st.pop();
       cout << "Top After pop" << st.top() << endl;
+
+      // check the size
       return 0;
 }

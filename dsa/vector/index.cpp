@@ -34,6 +34,9 @@ int main()
       cin >> target;
       // search from the element
       auto it = find(v.begin(), v.end(), target);
-      cout << it;
+      if (it != v.end())
+            cout << "Found";
+      else
+            cout << "Not Found";
       return 0;
 }

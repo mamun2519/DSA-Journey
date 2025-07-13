@@ -16,7 +16,11 @@ int main()
             {
                   if (c == ')' && st.top() == '(')
                   {
-                        st.pop()
+                        st.pop();
+                  }
+                  else if (c == '}' && st.top() == '{')
+                  {
+                        st.pop();
                   }
             }
       }

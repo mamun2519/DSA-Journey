@@ -22,7 +22,14 @@ int main()
                   {
                         st.pop();
                   }
+                  else if (c == ']' && st.top() == '[')
+                  {
+                        st.pop();
+                  }
+                  else
+                  {
+                        st.push(c);
+                  }
             }
+            return 0;
       }
-      return 0;
-}

@@ -19,5 +19,12 @@ int main()
       cout << "Top After pop" << st.top() << endl;
 
       // check the size
+      cout << "Stack Size Now" << st.size() << endl;
+
+      // check the stack empty
+      if (!st.empty())
+      {
+            cout << "Stack is does not empty";
+      }
       return 0;
 }

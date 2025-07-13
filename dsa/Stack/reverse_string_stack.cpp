@@ -13,5 +13,11 @@ int main()
             st.push(x);
       }
 
+      while (!st.empty())
+      {
+            cout << st.top();
+            st.pop();
+      }
+
       return 0;
 }

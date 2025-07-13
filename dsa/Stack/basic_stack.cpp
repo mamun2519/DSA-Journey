@@ -13,5 +13,7 @@ int main()
 
       // find top element
       cout << "Top element" << st.top() << endl;
-      return 0;
+
+      // remove element
+      st.pop() return 0;
 }

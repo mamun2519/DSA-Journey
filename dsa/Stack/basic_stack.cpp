@@ -26,5 +26,9 @@ int main()
       {
             cout << "Stack is does not empty";
       }
+      else
+      {
+            cout << "Stack Is empty";
+      }
       return 0;
 }

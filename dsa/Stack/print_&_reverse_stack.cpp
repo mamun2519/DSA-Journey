@@ -17,6 +17,8 @@ int main()
       // pint and reverse the array
       while (!st.empty())
       {
+            cout << st.top() << " ";
+            st.pop();
       }
 
       return 0;

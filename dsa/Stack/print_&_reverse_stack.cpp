@@ -11,6 +11,7 @@ int main()
       {
             int x;
             cin >> x;
+            st.push(x);
       }
 
       return 0;

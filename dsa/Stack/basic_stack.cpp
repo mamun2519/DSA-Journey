@@ -4,6 +4,14 @@ using namespace std;
 
 int main()
 {
+      // define stack
+      stack<int> st;
 
+      // push the stack
+      st.push(10);
+      st.push(20);
+
+      // find top element
+      cout << "Top element" << st.top() << endl;
       return 0;
 }

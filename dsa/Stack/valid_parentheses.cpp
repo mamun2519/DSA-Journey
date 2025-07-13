@@ -10,6 +10,7 @@ int main()
       {
             if (c == '(' || c == '{' || c == '[')
             {
+                  st.push(c);
             }
       }
       return 0;

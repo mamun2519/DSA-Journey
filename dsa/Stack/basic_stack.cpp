@@ -15,7 +15,7 @@ int main()
       cout << "Top element" << st.top() << endl;
 
       // remove element
-      st.pop();
+      // st.pop();
       cout << "Top After pop" << st.top() << endl;
 
       // check the size

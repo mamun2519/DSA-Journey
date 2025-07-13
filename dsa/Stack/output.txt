@@ -1,0 +1,4 @@
+Top element20
+Top After pop20
+Stack Size Now2
+Stack is does not empty

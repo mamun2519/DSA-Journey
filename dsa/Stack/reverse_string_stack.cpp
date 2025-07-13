@@ -3,20 +3,25 @@ using namespace std;
 
 int main()
 {
-      int size;
-      cin >> size;
+      string name;
+      cin >> name;
       stack<char> st;
-      for (int i = 0; i < size; i++)
+      // for (int i = 0; i < size; i++)
+      // {
+      //       int x;
+      //       cin >> x;
+      //       st.push(x);
+      // }
+
+      for (char c : name)
       {
-            int x;
-            cin >> x;
-            st.push(x);
+            st.push(c);
       }
 
       while (!st.empty())
       {
             cout << st.top();
-            st.pop();
+            // st.pop();
       }
 
       return 0;

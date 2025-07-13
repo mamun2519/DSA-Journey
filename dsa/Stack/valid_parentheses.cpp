@@ -33,5 +33,15 @@ int main()
             }
       }
 
+      // print the valid or not
+      if (!st.empty())
+      {
+            cout << "Parentheses is invalid";
+      }
+      else
+      {
+            cout << "Parentheses is valid";
+      }
+
       return 0;
 }

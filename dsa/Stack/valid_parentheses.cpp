@@ -31,5 +31,7 @@ int main()
                         st.push(c);
                   }
             }
-            return 0;
       }
+
+      return 0;
+}

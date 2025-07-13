@@ -15,5 +15,7 @@ int main()
       cout << "Top element" << st.top() << endl;
 
       // remove element
-      st.pop() return 0;
+      st.pop();
+      cout << "Top After pop" << st.top() << endl;
+      return 0;
 }

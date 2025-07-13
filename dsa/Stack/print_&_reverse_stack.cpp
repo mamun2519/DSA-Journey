@@ -14,5 +14,10 @@ int main()
             st.push(x);
       }
 
+      // pint and reverse the array
+      while (!st.empty())
+      {
+      }
+
       return 0;
 }

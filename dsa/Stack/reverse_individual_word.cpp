@@ -6,7 +6,7 @@ int main()
       string word;
       cin >> word;
       stack<char> st;
-      string result;
+      string result = "";
       for (int i = 0; i < word.length(); i++)
       {
 
@@ -21,8 +21,16 @@ int main()
                         result += st.top();
                         st.pop();
                   }
+                  result += " ";
             }
       }
+
+      while (!st.empty())
+      {
+            result += st.top();
+            st.pop();
+      }
+      cout << result;
 
       return 0;
 }

@@ -14,6 +14,14 @@ int main()
             {
                   st.push(word[i]);
             }
+            else
+            {
+                  while (!st.empty())
+                  {
+                        result += st.top();
+                        st.pop();
+                  }
+            }
       }
 
       return 0;

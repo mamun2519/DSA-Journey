@@ -12,13 +12,32 @@ string reverseWords(string str)
             {
                   st.push(str[i]);
             }
+            else
+            {
+                  while (!st.empty())
+                  {
+
+                        result += st.top();
+                        st.pop();
+                  }
+
+                  result += " ";
+            }
       }
+
+      while (!st.empty())
+      {
+            result += st.top();
+            st.pop();
+      }
+
+      return result;
 }
 
 int main()
 {
-      string str;
-      cin >> str;
+      string str = "Mohammad Mamun";
+
       string reversedString = reverseWords(str);
       cout << reversedString << endl;
       return 0;

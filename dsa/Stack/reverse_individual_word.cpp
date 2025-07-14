@@ -9,6 +9,11 @@ int main()
       string result;
       for (int i = 0; i < word.length(); i++)
       {
+
+            if (word[i] != ' ')
+            {
+                  st.push(word[i]);
+            }
       }
 
       return 0;

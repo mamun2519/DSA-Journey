@@ -23,5 +23,7 @@ int main()
             st.pop();
       }
 
+      // total sum
+      cout << "total Sum" << sum;
       return 0;
 }

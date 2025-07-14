@@ -1,36 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
+string reverseWords(string str)
 {
-      string word;
-      cin >> word;
       stack<char> st;
       string result = "";
-      for (int i = 0; i < word.length(); i++)
-      {
 
-            if (word[i] != ' ')
+      for (int i = 0; i < str.length(); i++)
+      {
+            if (str[i] != ' ')
             {
-                  st.push(word[i]);
-            }
-            else
-            {
-                  while (!st.empty())
-                  {
-                        result += st.top();
-                        st.pop();
-                  }
-                  result += " ";
+                  st.push(str[i]);
             }
       }
+}
 
-      while (!st.empty())
-      {
-            result += st.top();
-            st.pop();
-      }
-      cout << result;
-
+int main()
+{
+      string str;
+      cin >> str;
+      string reversedString = reverseWords(str);
+      cout << reversedString << endl;
       return 0;
 }

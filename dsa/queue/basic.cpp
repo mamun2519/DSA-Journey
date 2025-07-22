@@ -18,5 +18,9 @@ int main()
       // print the backend element
       cout << "Back element" << q.back() << endl;
 
+      // remove the element
+      q.pop();
+
+      cout << "Front element" << q.front() << endl;
       return 0;
 }

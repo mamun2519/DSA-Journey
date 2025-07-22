@@ -2,6 +2,10 @@
 using namespace std;
 // g++ insert_array.cpp -o test.exe && ./test.exe < input.txt > output.txt
 
-int main(){
+int main()
+{
 
-    return 0}
+      // declare q;
+      queue<int> q;
+      return 0;
+}

@@ -2,6 +2,17 @@
 using namespace std;
 int main()
 {
+      int n;
+      cin >> n;
+      queue<int> q;
+      for (int i = 0; i < n; i++)
+      {
+            int x;
+            cin >> x;
+            q.push(x);
+      }
 
-      return;
+      // print the first element
+      cout << q.front();
+      return 0;
 }

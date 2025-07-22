@@ -12,7 +12,12 @@ int main()
             q.push(x);
       }
 
-      // print the first element
-      cout << q.front();
+      // print the queue
+      while (!q.empty())
+      {
+            cout << q.front() << " ";
+            q.pop();
+      }
+
       return 0;
 }

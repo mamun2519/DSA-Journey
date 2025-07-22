@@ -7,5 +7,10 @@ int main()
 
       // declare q;
       queue<int> q;
+      // push add to last element
+      q.push(10); // 10
+      q.push(20); // 10 20
+      q.push(30); // 10 20 30
+
       return 0;
 }

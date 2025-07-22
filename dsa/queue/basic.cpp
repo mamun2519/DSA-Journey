@@ -12,5 +12,5 @@ int main()
       q.push(20); // 10 20
       q.push(30); // 10 20 30
 
-      return 0;
+            return 0;
 }

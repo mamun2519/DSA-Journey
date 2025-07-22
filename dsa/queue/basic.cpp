@@ -13,7 +13,10 @@ int main()
       q.push(30); // 10 20 30
 
       // print the font element
-      cout << q.front() << endl;
+      cout << "Front element" << q.front() << endl;
+
+      // print the backend element
+      cout << "Back element" << q.back() << endl;
 
       return 0;
 }

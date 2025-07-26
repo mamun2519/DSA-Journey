@@ -3,21 +3,38 @@ using namespace std;
 
 int main()
 {
-      int n;
-      cin >> n;
+
+      int n, k;
+      cin >> n >> k;
       int arr[n];
       for (int i = 0; i < n; i++)
       {
             cin >> arr[i];
       }
-      int target;
-      cin >> target;
 
-      stack<int> st;
+      bool found = false;
       for (int i = 0; i < n; i++)
       {
-            if (arr[i] <= target)
-                  st.push(i);
+
+            if (arr[i] == k)
+            {
+                  found = true;
+                  break;
+            }
+            else
+            {
+                  found = false;
+            }
       }
-      else if () return 0;
+
+      if (found)
+      {
+            cout << "YES" << endl;
+      }
+      else
+      {
+            cout << "NO" << endl;
+      }
+
+      return 0;
 }

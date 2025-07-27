@@ -13,5 +13,6 @@ int main()
       age["john"] = 30;
       age["alice"] = 22;
 
+      cout << "Age of Juboraj: " << age["juboraj"] << endl;
       return 0;
 }

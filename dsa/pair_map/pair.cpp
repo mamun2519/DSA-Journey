@@ -11,6 +11,6 @@ int main()
 
       // nested pair
       pair<string, pair<int, int>> nested_pr;
-
+      nested_pr = make_pair("Juboraj", make_pair(1, 2));
       return 0;
 }

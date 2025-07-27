@@ -25,5 +25,10 @@ int main()
       {
             cout << arr[i].first << " " << arr[i].second << endl;
       }
+      // pair with vector
+      vector<pair<int, int>> vec;
+      vec.push_back(make_pair(1, 2));
+      vec.push_back(make_pair(3, 4));
+      vec.push_back(make_pair(5, 6));
       return 0;
 }

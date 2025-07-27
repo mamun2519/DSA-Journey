@@ -20,5 +20,10 @@ int main()
       arr[0] = make_pair(1, 2);
       arr[1] = make_pair(3, 4);
       arr[2] = make_pair(5, 6);
+
+      for (int i = 0; i < 3; i++)
+      {
+            cout << arr[i].first << " " << arr[i].second << endl;
+      }
       return 0;
 }

@@ -12,5 +12,7 @@ int main()
       // nested pair
       pair<string, pair<int, int>> nested_pr;
       nested_pr = make_pair("Juboraj", make_pair(1, 2));
+
+      cout << nested_pr.first << " " << nested_pr.second.first << " " << nested_pr.second.second << endl;
       return 0;
 }

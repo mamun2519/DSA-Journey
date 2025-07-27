@@ -14,5 +14,11 @@ int main()
       age["alice"] = 22;
 
       cout << "Age of Juboraj: " << age["juboraj"] << endl;
+
+      // iterate through the map
+      for (auto x : age)
+      {
+            cout << x.first << " is " << x.second << " years old." << endl;
+      }
       return 0;
 }

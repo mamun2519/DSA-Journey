@@ -1,8 +1,4 @@
-1 2
-Juboraj 1 2
-1 2
-3 4
-5 6
-1 2
-3 4
-5 6
+Age of Juboraj: 24
+alice is 22 years old.
+john is 30 years old.
+juboraj is 24 years old.

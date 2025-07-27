@@ -20,5 +20,8 @@ int main()
       {
             cout << x.first << " is " << x.second << " years old." << endl;
       }
+
+      // size of the map
+      cout << "Size of the map: " << age.size() << endl;
       return 0;
 }

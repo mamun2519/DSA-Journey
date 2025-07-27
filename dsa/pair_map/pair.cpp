@@ -30,5 +30,10 @@ int main()
       vec.push_back(make_pair(1, 2));
       vec.push_back(make_pair(3, 4));
       vec.push_back(make_pair(5, 6));
+
+      for (int i = 0; i < vec.size(); i++)
+      {
+            cout << vec[i].first << " " << vec[i].second << endl;
+      }
       return 0;
 }

@@ -29,5 +29,6 @@ int main()
                         secondMax = a[i];
                   }
             }
+            cout << firstMax + secondMax << endl;
       }
 }

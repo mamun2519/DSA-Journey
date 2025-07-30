@@ -1,5 +1,1 @@
-Age of Juboraj: 24
-alice is 22 years old.
-john is 30 years old.
-juboraj is 24 years old.
-Size of the map: 3
+Age of Mamun: 24

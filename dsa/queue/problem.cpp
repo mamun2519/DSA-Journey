@@ -17,5 +17,11 @@ int main()
             // your code goes here
             int firstMax = a[0];
             int secondMax = INT_MIN;
+            for (int i = 0; i < n; i++)
+            {
+                  if (a[i] > firstMax)
+                  {
+                  }
             }
+      }
 }

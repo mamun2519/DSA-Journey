@@ -15,5 +15,7 @@ int main()
                   cin >> a[i];
             }
             // your code goes here
-      }
+            int firstMax = a[0];
+            int secondMax = INT_MIN;
+            }
 }

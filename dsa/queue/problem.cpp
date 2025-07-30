@@ -9,26 +9,27 @@ int main()
       {
             int n;
             cin >> n;
-            int a[n];
+            int d[n];
             for (int i = 0; i < n; i++)
             {
-                  cin >> a[i];
+                  cin >> d[i];
             }
             // your code goes here
-            int firstMax = a[0];
-            int secondMax = INT_MIN;
-            for (int i = 0; i < n; i++)
+            bool isSorted = true;
+            for (int i = 0; i < n - 1; i++)
             {
-                  if (a[i] > firstMax)
+                  if (d[i] > d[i + 1])
                   {
-                        secondMax = firstMax;
-                        firstMax = a[i];
-                  }
-                  else if (a[i] > secondMax && a[i] < firstMax)
-                  {
-                        secondMax = a[i];
+                        isSorted = false;
+                        break;
                   }
             }
-            cout << firstMax + secondMax << endl;
+            if (isSorted)
+            {
+                  cout << "Yes" << endl;
+            }
+            else
+            {
+                  cout << "No" << endl;
+            }
       }
-}

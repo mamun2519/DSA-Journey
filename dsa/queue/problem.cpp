@@ -13,9 +13,9 @@ int main()
       while (n--)
       {
             string s;
-            cin >> s; // words are 1..100 lowercase letters
+            cin >> s;
             if (s.size() > 10)
-            { // strictly more than 10
+            {
                   cout << s.front() << (s.size() - 2) << s.back() << '\n';
             }
             else

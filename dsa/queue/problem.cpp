@@ -21,6 +21,12 @@ int main()
             {
                   if (a[i] > firstMax)
                   {
+                        secondMax = firstMax;
+                        firstMax = a[i];
+                  }
+                  else if (a[i] > secondMax && a[i] < firstMax)
+                  {
+                        secondMax = a[i];
                   }
             }
       }

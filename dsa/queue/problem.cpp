@@ -3,18 +3,17 @@ using namespace std;
 
 int main()
 {
-      int y;
-      cin >> y; // Read the number of words
-      for (int year = y + 1;; y++)
+      int t;
+      cin >> t;
+      while (t--)
       {
-            string s;
-            cin >> s; // Read each word
-            set<char> st(s.begin(), s.end());
-            if ((int)st.size() == (int)s.size())
-            { // all digits are unique
-                  cout << year << '\n';
-                  break;
+            int n;
+            cin >> n;
+            int a[n];
+            for (int i = 0; i < n; i++)
+            {
+                  cin >> a[i];
             }
+            // your code goes here
       }
-      return 0;
 }

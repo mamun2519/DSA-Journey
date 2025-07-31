@@ -21,7 +21,7 @@ int main()
             }
 
             cout << insertions << endl;
-
-            return 0;
       }
+
+      return 0;
 }

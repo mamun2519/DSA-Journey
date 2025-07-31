@@ -1,6 +1,1 @@
-5
-hello world
-this is a CODECHEF problem
-WELCOME to the JUNGLE
-the quick BROWN fOx
-programming in PYTHON
+1

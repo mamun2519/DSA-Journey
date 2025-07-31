@@ -3,28 +3,31 @@ using namespace std;
 
 int main()
 {
-      int T;
-      cin >> T;
-      while (T--)
+
+      int n;
+      cin >> n;
+
+      for (int i = 1; i <= n; i++)
       {
-
-            string s;
-            getline(cin, s);
-            stringstream ss(s);
-            string word;
-            string result;
-
-            for (int i = 0; i < s.size(); i++)
+            if (i % 2 == 1)
             {
-                  if (s[i] == s.size() || s[i] == ' ')
-                  {
-                  }
+                  cout << "I hate";
             }
             else
             {
-                  result += toupper(s[i]);
+                  cout << "I love";
+            }
+
+            if (i == n)
+            {
+                  cout << " it";
+            }
+            else
+            {
+                  cout << " that ";
             }
       }
+      cout << endl;
 
       return 0;
 }

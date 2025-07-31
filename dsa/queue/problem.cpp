@@ -9,21 +9,21 @@ int main()
       {
 
             string s;
-            cin >> s;
+            getline(cin, s);
+            stringstream ss(s);
+            string word;
+            string result;
 
-            string titleCase = "";
             for (int i = 0; i < s.size(); i++)
             {
-                  if (i == 0 || s[i - 1] == ' ')
+                  if (s[i] == s.size() || s[i] == ' ')
                   {
-                        titleCase += toupper(s[i]);
-                  }
-                  else
-                  {
-                        titleCase += tolower(s[i]);
                   }
             }
-            cout << titleCase << endl;
+            else
+            {
+                  result += toupper(s[i]);
+            }
       }
 
       return 0;

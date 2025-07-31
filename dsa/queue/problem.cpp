@@ -16,7 +16,15 @@ int main()
             for (int i = 0; i < n; i++)
             {
                   string pair = s.substr(i, 2);
-                  if ()
+                  if (pair == "00")
+                        ans += 'A';
+                  else if (pair == "01")
+                        ans += 'B';
+                  else if (pair == "10")
+                        ans += 'C';
+                  else if (pair == "11")
+                        ans += 'D';
             }
+            cout << ans << endl;
       }
 }

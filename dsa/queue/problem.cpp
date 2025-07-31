@@ -12,5 +12,11 @@ int main()
             string s;
             cin >> s;
             // your code goes here
+            string ans = "";
+            for (int i = 0; i < n; i++)
+            {
+                  string pair = s.substr(i, 2);
+                  if ()
+            }
       }
 }

@@ -1,7 +1,6 @@
-3
-2
-11
-4
-0101
 5
-00100
+hello world
+this is a CODECHEF problem
+WELCOME to the JUNGLE
+the quick BROWN fOx
+programming in PYTHON

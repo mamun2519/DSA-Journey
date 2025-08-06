@@ -11,7 +11,7 @@ int main()
 
       if (s == "act")
       {
-            cout << "YES" << endl;
+            cout << "YES" << endl
       }
       else
       {

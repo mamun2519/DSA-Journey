@@ -9,5 +9,13 @@ int main()
       int n = s.size();
       sort(s.begin(), s.end());
 
+      if (s == "act")
+      {
+            cout << "YES" << endl;
+      }
+      else
+      {
+            cout << "NO" << endl;
+      }
       return 0;
 }

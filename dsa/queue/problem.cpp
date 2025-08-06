@@ -16,10 +16,10 @@ int main()
                   cin >> arr[i];
             }
 
-            int min_cost = 0;
+            int min_cost = 1e9;
             for (int i = 0; i < n; i++)
             {
-                  for (int j = i + 1; j < n; j++)
+                  for (int j = 0; j < n; j++)
                   {
                         if (i == j)
                               continue;

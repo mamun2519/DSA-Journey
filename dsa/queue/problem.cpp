@@ -16,13 +16,24 @@ int main()
                   cin >> arr[i];
             }
 
-            int result = 0;
+            int min_cost = 0;
             for (int i = 0; i < n; i++)
             {
                   for (int j = i + 1; j < n; j++)
                   {
                         if (i == j)
                               continue;
+
+                        int cost;
+                        if (i + 1 == j)
+                        {
+                              cost = arr[i] + arr[j] / 2;
+                        }
+                        else
+                        {
+                              cost = arr[i] + arr[j];
+                        }
+                        min_cost = min(min_cost, cost);
                   }
             }
       }

@@ -9,6 +9,17 @@ int main()
       while (t--)
       {
             int a1, b1, a2, b2;
+            cin >> a1 >> b1;
+            cin >> a2 >> b2;
+
+            if (isPossible(a1, b1, a2, b2))
+            {
+                  cout << "YES" << endl;
+            }
+            else
+            {
+                  cout << "NO" << endl;
+            }
       }
       return 0;
 }

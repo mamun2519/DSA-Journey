@@ -36,6 +36,7 @@ int main()
                         min_cost = min(min_cost, cost);
                   }
             }
+            cout << min_cost << endl;
       }
       return 0;
 }

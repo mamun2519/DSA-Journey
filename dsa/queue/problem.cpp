@@ -16,7 +16,7 @@ int main()
                   cin >> arr[i];
             }
 
-            int min_cost = 1e9;
+            int min_cost = 1000000000;
             for (int i = 0; i < n; i++)
             {
                   for (int j = 0; j < n; j++)

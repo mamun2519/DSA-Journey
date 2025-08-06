@@ -8,11 +8,13 @@ int main()
       cin >> t;
       while (t--)
       {
-            int a1, b1, a2, b2;
-            cin >> a1 >> b1;
-            cin >> a2 >> b2;
+            vector<int> a(2), b(2);
+            cin >> a[0] >> a[1];
+            cin >> b[0] >> b[1];
 
-            if (isPossible(a1, b1, a2, b2))
+            sort(a.begin(), a.end());
+            sort(b.begin(), b.end());
+            if (a == b)
             {
                   cout << "YES" << endl;
             }

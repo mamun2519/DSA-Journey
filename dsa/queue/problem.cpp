@@ -12,6 +12,7 @@ int main()
             cin >> s;
             stack<char> st;
             for (char c : s)
+
             {
                   if (c == '(' || c == '{' || c == '[')
                   {
@@ -36,6 +37,14 @@ int main()
                               st.push(c);
                         }
                   }
+            }
+            if (!st.empty())
+            {
+                  cout << 0 << endl;
+            }
+            else
+            {
+                  cout << 1 << endl;
             }
       }
 

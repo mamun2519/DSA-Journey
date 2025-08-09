@@ -17,6 +17,12 @@ int main()
                   {
                         st.push(c);
                   }
+                  else
+                  {
+                        if (c == ')' && st.top() == ())
+                        {
+                        }
+                  }
             }
       }
 

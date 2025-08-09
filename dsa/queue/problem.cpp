@@ -16,7 +16,10 @@ int main()
 
                   for (char c : s)
                   {
-                        if (c)
+                        if (c == '{')
+                        {
+                              st.push(c);
+                        }
                   }
       }
 

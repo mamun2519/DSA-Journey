@@ -11,41 +11,13 @@ int main()
             string s;
             cin >> s;
             stack<char> st;
+            bool valid = true;
             for (char c : s)
 
-            {
-                  if (c == '(' || c == '{' || c == '[')
+                  for (char c : s)
                   {
-                        st.push(c);
+                        if (c)
                   }
-                  else
-                  {
-                        if (c == ')' && st.top() == '(')
-                        {
-                              st.pop();
-                        }
-                        else if (c == '}' && st.top() == '{')
-                        {
-                              st.pop();
-                        }
-                        else if (c == ']' && st.top() == '[')
-                        {
-                              st.pop();
-                        }
-                        else
-                        {
-                              st.push(c);
-                        }
-                  }
-            }
-            if (!st.empty())
-            {
-                  cout << 0 << endl;
-            }
-            else
-            {
-                  cout << 1 << endl;
-            }
       }
 
       return 0;

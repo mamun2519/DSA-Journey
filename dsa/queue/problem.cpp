@@ -17,11 +17,6 @@ int main()
             if (a == b)
             {
                   cout << "YES" << endl;
+
+                  return 0;
             }
-            else
-            {
-                  cout << "NO" << endl;
-            }
-      }
-      return 0;
-}

@@ -29,6 +29,11 @@ int main()
                         }
                         else if (c == ']' && st.top() == '[')
                         {
+                              st.pop();
+                        }
+                        else
+                        {
+                              st.push(c);
                         }
                   }
             }

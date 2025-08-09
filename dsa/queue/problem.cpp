@@ -19,8 +19,9 @@ int main()
                   }
                   else
                   {
-                        if (c == ')' && st.top() == ())
+                        if (c == ')' && st.top() == '(')
                         {
+                              st.pop()
                         }
                   }
             }

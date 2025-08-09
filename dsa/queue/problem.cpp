@@ -7,10 +7,6 @@ int main()
       int t;
       cin >> t;
       while (t--)
-      {
-            vector<int> a(2), b(2);
-            cin >> a[0] >> a[1];
-            cin >> b[0] >> b[1];
 
             return 0;
-      }
+}

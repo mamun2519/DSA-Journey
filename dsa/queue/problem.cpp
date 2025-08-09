@@ -20,6 +20,14 @@ int main()
                         {
                               st.push(c);
                         }
+                        else
+                        {
+                              if (st.empty())
+                              {
+                                    valid = false;
+                                    break;
+                              }
+                        }
                   }
       }
 

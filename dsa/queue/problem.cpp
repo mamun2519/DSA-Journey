@@ -4,37 +4,40 @@ using namespace std;
 
 int main()
 {
+      ios::sync_with_stdio(false);
+      cin.tie(nullptr);
+
       int t;
       cin >> t;
       while (t--)
       {
             string s;
             cin >> s;
-            stack<char> st;
-            bool valid = true;
-            for (char c : s)
 
-                  for (char c : s)
+            int balance = 0;
+            bool valid = true;
+
+            for (char c : s)
+            {
+                  if (c == '(')
                   {
-                        if (c == '{')
-                        {
-                              st.push(c);
-                        }
-                        else
-                        {
-                              if (st.empty())
-                              {
-                                    valid = false;
-                                    break;
-                              }
-                              st.pop();
+                        balance++;
+                  }
+                  else
+                  { // c == ')'
+                        balance--;
+                        if (balance < 0)
+                        { // more ')' than '('
+                              valid = false;
+                              break;
                         }
                   }
-            if (!st.empty())
+            }
+
+            if (balance != 0)
                   valid = false;
 
             cout << (valid ? 1 : 0) << "\n";
       }
-
       return 0;
 }

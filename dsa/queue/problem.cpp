@@ -25,6 +25,10 @@ int main()
                         }
                         else if (c == '}' && st.top() == '{')
                         {
+                              st.pop();
+                        }
+                        else if (c == ']' && st.top() == '[')
+                        {
                         }
                   }
             }

@@ -10,6 +10,7 @@ int main()
       {
             string s;
             cin >> s;
+            stack<char> st;
       }
 
       return 0;

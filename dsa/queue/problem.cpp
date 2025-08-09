@@ -12,11 +12,5 @@ int main()
             cin >> a[0] >> a[1];
             cin >> b[0] >> b[1];
 
-            sort(a.begin(), a.end());
-            sort(b.begin(), b.end());
-            if (a == b)
-            {
-                  cout << "YES" << endl;
-
-                  return 0;
-            }
+            return 0;
+      }

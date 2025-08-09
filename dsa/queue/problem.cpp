@@ -27,8 +27,13 @@ int main()
                                     valid = false;
                                     break;
                               }
+                              st.pop();
                         }
                   }
+            if (!st.empty())
+                  valid = false;
+
+            cout << (valid ? 1 : 0) << "\n";
       }
 
       return 0;
